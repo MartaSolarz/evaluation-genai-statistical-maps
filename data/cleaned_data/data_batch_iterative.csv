@@ -1,0 +1,1153 @@
+answer_id,model_name,provider_country,licence_type,map_code,graphical_complexity,viz_technique,symbol_scaling,diagram_structure,map_source,question_id,nuts_level,map_usage_type,task_type,test_mode,score
+1,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,batch,0.0
+2,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,batch,5.0
+3,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,batch,0.0
+4,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,batch,3.3
+5,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,batch,3.4
+6,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,batch,3.4
+7,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,batch,4.2
+8,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,batch,4.45
+9,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,batch,4.75
+10,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,batch,0.0
+11,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,batch,5.0
+12,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,batch,3.8
+13,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,batch,4.1
+14,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,batch,4.1
+15,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,batch,3.6
+16,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,batch,0.0
+17,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,batch,4.0
+18,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,batch,4.3
+19,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,batch,0.0
+20,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,batch,0.0
+21,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,batch,5.0
+22,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,batch,3.2
+23,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,batch,3.9
+24,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,batch,5.0
+25,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,batch,0.0
+26,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,batch,3.55
+27,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,batch,3.5
+28,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,batch,4.5
+29,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,batch,5.0
+30,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,batch,0.0
+31,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,batch,5.0
+32,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,batch,5.0
+33,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,batch,4.6
+34,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,batch,3.45
+35,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,batch,4.0
+36,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,batch,4.55
+37,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,batch,4.5
+38,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,batch,0.0
+39,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,batch,4.3
+40,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,batch,0.0
+41,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,batch,0.0
+42,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,batch,3.7
+43,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,batch,2.85
+44,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,batch,4.25
+45,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,batch,4.5
+46,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,batch,5.0
+47,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,batch,0.0
+48,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,batch,0.0
+49,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,batch,4.05
+50,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,batch,4.3
+51,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,batch,3.6
+52,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,batch,4.5
+53,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,batch,3.5
+54,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,batch,4.75
+55,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,batch,5.0
+56,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,batch,0.0
+57,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,batch,0.0
+58,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,batch,4.8
+59,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,batch,0.0
+60,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,batch,4.8
+61,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,batch,4.25
+62,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,batch,4.05
+63,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,batch,5.0
+64,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,batch,4.5
+65,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,batch,5.0
+66,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,batch,0.0
+67,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,batch,0.0
+68,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,batch,0.0
+69,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,batch,3.85
+70,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,batch,4.75
+71,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,batch,4.75
+72,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,batch,4.0
+73,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,batch,0.0
+74,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,batch,4.8
+75,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,batch,5.0
+76,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,batch,4.8
+77,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,batch,4.6
+78,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,batch,4.5
+79,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,batch,4.4
+80,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,batch,4.75
+81,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,batch,4.5
+82,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,batch,0.0
+83,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,batch,0.0
+84,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,batch,4.3
+85,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,batch,4.3
+86,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,batch,0.0
+87,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,batch,4.3
+88,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,batch,0.0
+89,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,batch,4.05
+90,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,batch,4.3
+91,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,batch,4.9
+92,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,batch,5.0
+93,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,batch,5.0
+94,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,batch,0.0
+95,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,batch,5.0
+96,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,batch,5.0
+97,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,batch,4.8
+98,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,batch,4.25
+99,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,batch,4.25
+100,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,batch,0.0
+101,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,batch,0.0
+102,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,batch,5.0
+103,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,batch,4.1
+104,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,batch,3.65
+105,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,batch,3.025
+106,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,batch,5.0
+107,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,batch,4.75
+108,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,batch,4.5
+109,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,batch,0.0
+110,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,batch,0.0
+111,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,batch,0.0
+112,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,batch,0.0
+113,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,batch,0.0
+114,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,batch,0.0
+115,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,batch,4.0
+116,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,batch,3.5
+117,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,batch,4.25
+118,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,batch,0.0
+119,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,batch,0.0
+120,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,batch,0.0
+121,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,batch,0.0
+122,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,batch,3.45
+123,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,batch,3.775
+124,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,batch,4.5
+125,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,batch,3.95
+126,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,batch,3.9
+127,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,batch,0.0
+128,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,batch,0.0
+129,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,batch,0.0
+130,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,batch,3.85
+131,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,batch,0.0
+132,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,batch,5.0
+133,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,batch,3.8
+134,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,batch,2.3
+135,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,batch,5.0
+136,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,batch,5.0
+137,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,batch,4.8
+138,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,batch,0.0
+139,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,batch,4.1
+140,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,batch,0.0
+141,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,batch,0.0
+142,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,batch,2.5
+143,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,batch,4.0
+144,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,batch,4.15
+145,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,iterative,0.0
+146,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,iterative,4.5
+147,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,iterative,0.0
+148,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,iterative,3.2
+149,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,iterative,0.0
+150,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,iterative,3.1
+151,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,iterative,4.45
+152,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,iterative,3.25
+153,GPT-4o,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,iterative,3.95
+154,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,iterative,0.0
+155,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,iterative,0.0
+156,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,iterative,3.8
+157,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,iterative,3.7
+158,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,iterative,0.0
+159,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,iterative,0.0
+160,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,iterative,0.0
+161,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,iterative,0.0
+162,GPT-4o,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,iterative,4.5
+163,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,iterative,0.0
+164,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,iterative,0.0
+165,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,iterative,0.0
+166,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,iterative,4.0
+167,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,iterative,4.0
+168,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,iterative,4.0
+169,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,iterative,3.2
+170,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,iterative,4.2
+171,GPT-4o,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,iterative,3.25
+172,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,iterative,0.0
+173,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,iterative,4.9
+174,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,iterative,0.0
+175,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,iterative,4.9
+176,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,iterative,4.0
+177,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,iterative,4.3
+178,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,iterative,3.5
+179,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,iterative,3.95
+180,GPT-4o,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,iterative,4.75
+181,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,iterative,4.4
+182,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,iterative,0.0
+183,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,iterative,0.0
+184,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,iterative,0.0
+185,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,iterative,0.0
+186,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,iterative,3.8
+187,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,iterative,4.0
+188,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,iterative,4.25
+189,GPT-4o,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,iterative,4.75
+190,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,iterative,4.4
+191,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,iterative,0.0
+192,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,iterative,0.0
+193,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,iterative,0.0
+194,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,iterative,3.2
+195,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,iterative,3.25
+196,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,iterative,5.0
+197,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,iterative,4.75
+198,GPT-4o,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,iterative,4.75
+199,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,iterative,4.9
+200,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,iterative,0.0
+201,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,iterative,4.2
+202,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,iterative,4.2
+203,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,iterative,0.0
+204,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,iterative,4.9
+205,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,iterative,0.0
+206,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,iterative,4.35
+207,GPT-4o,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,iterative,4.6
+208,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,iterative,3.9
+209,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,iterative,0.0
+210,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,iterative,0.0
+211,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,iterative,4.2
+212,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,iterative,0.0
+213,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,iterative,0.0
+214,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,iterative,5.0
+215,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,iterative,4.5
+216,GPT-4o,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,iterative,4.0
+217,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,iterative,0.0
+218,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,iterative,0.0
+219,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,iterative,5.0
+220,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,iterative,4.3
+221,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,iterative,0.0
+222,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,iterative,0.0
+223,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,iterative,0.0
+224,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,iterative,4.55
+225,GPT-4o,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,iterative,5.0
+226,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,iterative,0.0
+227,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,iterative,0.0
+228,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,iterative,4.2
+229,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,iterative,4.9
+230,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,iterative,0.0
+231,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,iterative,3.8
+232,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,iterative,0.0
+233,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,iterative,0.0
+234,GPT-4o,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,iterative,4.25
+235,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,iterative,4.9
+236,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,iterative,4.9
+237,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,iterative,4.9
+238,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,iterative,3.8
+239,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,iterative,4.9
+240,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,iterative,4.1
+241,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,iterative,5.0
+242,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,iterative,4.25
+243,GPT-4o,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,iterative,4.3
+244,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,iterative,4.8
+245,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,iterative,0.0
+246,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,iterative,0.0
+247,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,iterative,4.0
+248,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,iterative,3.55
+249,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,iterative,3.325
+250,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,iterative,4.3
+251,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,iterative,4.6
+252,GPT-4o,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,iterative,3.85
+253,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,iterative,0.0
+254,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,iterative,0.0
+255,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,iterative,3.8
+256,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,iterative,0.0
+257,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,iterative,0.0
+258,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,iterative,4.0
+259,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,iterative,4.0
+260,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,iterative,3.05
+261,GPT-4o,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,iterative,4.0
+262,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,iterative,5.0
+263,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,iterative,0.0
+264,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,iterative,4.3
+265,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,iterative,0.0
+266,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,iterative,3.35
+267,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,iterative,3.875
+268,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,iterative,4.45
+269,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,iterative,4.25
+270,GPT-4o,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,iterative,4.45
+271,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,iterative,0.0
+272,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,iterative,0.0
+273,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,iterative,4.7
+274,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,iterative,3.95
+275,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,iterative,0.0
+276,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,iterative,4.2
+277,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,iterative,3.85
+278,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,iterative,5.0
+279,GPT-4o,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,iterative,4.8
+280,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,iterative,4.9
+281,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,iterative,0.0
+282,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,iterative,0.0
+283,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,iterative,4.4
+284,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,iterative,0.0
+285,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,iterative,0.0
+286,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,iterative,3.7
+287,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,iterative,4.75
+288,GPT-4o,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,iterative,3.7
+433,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,batch,5.0
+434,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,batch,4.8
+435,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,batch,5.0
+436,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,batch,4.3
+437,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,batch,4.3
+438,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,batch,4.1
+439,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,batch,2.3
+440,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,batch,5.0
+441,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,batch,0.0
+442,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,batch,5.0
+443,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,batch,5.0
+444,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,batch,5.0
+445,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,batch,4.1
+446,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,batch,4.05
+447,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,batch,5.0
+448,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,batch,0.0
+449,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,batch,3.8
+450,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,batch,5.0
+451,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,batch,5.0
+452,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,batch,0.0
+453,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,batch,4.6
+454,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,batch,4.3
+455,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,batch,0.0
+456,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,batch,4.1
+457,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,batch,3.55
+458,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,batch,3.35
+459,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,batch,4.2
+460,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,batch,5.0
+461,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,batch,4.6
+462,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,batch,0.0
+463,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,batch,5.0
+464,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,batch,4.5
+465,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,batch,4.6
+466,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,batch,3.0
+467,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,batch,4.3
+468,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,batch,4.55
+469,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,batch,4.9
+470,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,batch,4.6
+471,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,batch,4.5
+472,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,batch,4.3
+473,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,batch,3.9
+474,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,batch,4.4
+475,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,batch,3.15
+476,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,batch,4.25
+477,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,batch,3.85
+478,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,batch,5.0
+479,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,batch,0.0
+480,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,batch,4.6
+481,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,batch,4.5
+482,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,batch,4.8
+483,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,batch,3.55
+484,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,batch,4.75
+485,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,batch,3.8
+486,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,batch,4.3
+487,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,batch,4.8
+488,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,batch,0.0
+489,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,batch,5.0
+490,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,batch,3.6
+491,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,batch,0.0
+492,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,batch,0.0
+493,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,batch,2.55
+494,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,batch,4.05
+495,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,batch,2.55
+496,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,batch,4.8
+497,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,batch,0.0
+498,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,batch,0.0
+499,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,batch,0.0
+500,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,batch,0.0
+501,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,batch,0.0
+502,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,batch,4.7
+503,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,batch,2.45
+504,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,batch,3.75
+505,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,batch,5.0
+506,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,batch,4.8
+507,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,batch,4.5
+508,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,batch,3.8
+509,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,batch,4.8
+510,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,batch,4.1
+511,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,batch,4.0
+512,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,batch,4.75
+513,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,batch,0.0
+514,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,batch,0.0
+515,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,batch,0.0
+516,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,batch,4.3
+517,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,batch,4.3
+518,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,batch,5.0
+519,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,batch,5.0
+520,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,batch,4.5
+521,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,batch,4.5
+522,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,batch,3.1
+523,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,batch,5.0
+524,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,batch,5.0
+525,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,batch,0.0
+526,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,batch,5.0
+527,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,batch,5.0
+528,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,batch,5.0
+529,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,batch,4.05
+530,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,batch,4.05
+531,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,batch,4.05
+532,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,batch,0.0
+533,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,batch,5.0
+534,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,batch,0.0
+535,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,batch,4.5
+536,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,batch,3.65
+537,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,batch,3.225
+538,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,batch,3.85
+539,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,batch,5.0
+540,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,batch,5.0
+541,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,batch,5.0
+542,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,batch,5.0
+543,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,batch,0.0
+544,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,batch,0.0
+545,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,batch,0.0
+546,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,batch,0.0
+547,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,batch,3.25
+548,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,batch,1.95
+549,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,batch,4.5
+550,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,batch,0.0
+551,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,batch,0.0
+552,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,batch,4.3
+553,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,batch,0.0
+554,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,batch,3.45
+555,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,batch,0.0
+556,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,batch,4.75
+557,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,batch,3.5
+558,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,batch,4.0
+559,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,batch,0.0
+560,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,batch,0.0
+561,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,batch,4.5
+562,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,batch,4.05
+563,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,batch,0.0
+564,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,batch,4.3
+565,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,batch,4.05
+566,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,batch,2.45
+567,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,batch,4.8
+568,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,batch,4.4
+569,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,batch,5.0
+570,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,batch,0.0
+571,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,batch,4.8
+572,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,batch,0.0
+573,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,batch,0.0
+574,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,batch,4.75
+575,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,batch,4.0
+576,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,batch,5.0
+577,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,iterative,4.9
+578,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,iterative,0.0
+579,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,iterative,0.0
+580,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,iterative,0.0
+581,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,iterative,5.0
+582,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,iterative,3.9
+583,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,iterative,4.45
+584,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,iterative,4.8
+585,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,iterative,0.0
+586,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,iterative,5.0
+587,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,iterative,5.0
+588,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,iterative,4.5
+589,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,iterative,0.0
+590,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,iterative,4.05
+591,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,iterative,0.0
+592,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,iterative,5.0
+593,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,iterative,4.7
+594,Gemini 1.5 Pro,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,iterative,4.25
+595,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,iterative,5.0
+596,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,iterative,5.0
+597,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,iterative,5.0
+598,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,iterative,4.2
+599,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,iterative,0.0
+600,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,iterative,4.1
+601,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,iterative,3.3
+602,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,iterative,3.1
+603,Gemini 1.5 Pro,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,iterative,4.75
+604,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,iterative,5.0
+605,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,iterative,4.5
+606,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,iterative,0.0
+607,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,iterative,5.0
+608,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,iterative,3.9
+609,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,iterative,5.0
+610,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,iterative,3.55
+611,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,iterative,4.75
+612,Gemini 1.5 Pro,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,iterative,4.55
+613,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,iterative,5.0
+614,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,iterative,0.0
+615,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,iterative,0.0
+616,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,iterative,5.0
+617,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,iterative,4.2
+618,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,iterative,4.3
+619,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,iterative,4.75
+620,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,iterative,5.0
+621,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,iterative,4.8
+622,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,iterative,4.8
+623,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,iterative,0.0
+624,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,iterative,5.0
+625,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,iterative,5.0
+626,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,iterative,5.0
+627,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,iterative,3.5
+628,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,iterative,4.75
+629,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,iterative,4.5
+630,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,iterative,4.3
+631,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,iterative,5.0
+632,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,iterative,0.0
+633,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,iterative,4.5
+634,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,iterative,4.7
+635,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,iterative,0.0
+636,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,iterative,4.0
+637,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,iterative,4.25
+638,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,iterative,0.0
+639,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,iterative,4.45
+640,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,iterative,5.0
+641,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,iterative,5.0
+642,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,iterative,0.0
+643,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,iterative,4.5
+644,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,iterative,0.0
+645,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,iterative,0.0
+646,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,iterative,4.0
+647,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,iterative,2.95
+648,Gemini 1.5 Pro,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,iterative,4.75
+649,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,iterative,4.5
+650,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,iterative,5.0
+651,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,iterative,4.5
+652,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,iterative,0.0
+653,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,iterative,3.4
+654,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,iterative,4.3
+655,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,iterative,4.8
+656,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,iterative,4.55
+657,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,iterative,4.8
+658,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,iterative,0.0
+659,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,iterative,0.0
+660,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,iterative,0.0
+661,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,iterative,5.0
+662,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,iterative,0.0
+663,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,iterative,5.0
+664,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,iterative,4.5
+665,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,iterative,0.0
+666,Gemini 1.5 Pro,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,iterative,4.0
+667,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,iterative,5.0
+668,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,iterative,4.5
+669,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,iterative,0.0
+670,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,iterative,3.8
+671,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,iterative,4.3
+672,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,iterative,4.4
+673,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,iterative,4.55
+674,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,iterative,4.25
+675,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,iterative,4.05
+676,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,iterative,4.5
+677,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,iterative,5.0
+678,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,iterative,0.0
+679,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,iterative,4.3
+680,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,iterative,4.1
+681,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,iterative,0.0
+682,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,iterative,3.75
+683,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,iterative,4.3
+684,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,iterative,4.45
+685,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,iterative,5.0
+686,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,iterative,4.5
+687,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,iterative,5.0
+688,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,iterative,0.0
+689,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,iterative,0.0
+690,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,iterative,0.0
+691,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,iterative,4.0
+692,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,iterative,3.25
+693,Gemini 1.5 Pro,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,iterative,4.0
+694,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,iterative,0.0
+695,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,iterative,0.0
+696,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,iterative,0.0
+697,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,iterative,0.0
+698,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,iterative,0.0
+699,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,iterative,5.0
+700,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,iterative,5.0
+701,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,iterative,0.0
+702,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,iterative,0.0
+703,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,iterative,0.0
+704,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,iterative,0.0
+705,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,iterative,5.0
+706,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,iterative,4.3
+707,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,iterative,4.5
+708,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,iterative,4.4
+709,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,iterative,5.0
+710,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,iterative,5.0
+711,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,iterative,4.7
+712,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,iterative,4.5
+713,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,iterative,0.0
+714,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,iterative,0.0
+715,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,iterative,0.0
+716,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,iterative,0.0
+717,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,iterative,0.0
+718,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,iterative,5.0
+719,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,iterative,4.0
+720,Gemini 1.5 Pro,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,iterative,4.2
+1009,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,batch,4.9
+1010,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,batch,5.0
+1011,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,batch,5.0
+1012,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,batch,3.8
+1013,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,batch,0.0
+1014,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,batch,5.0
+1015,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,batch,4.75
+1016,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,batch,4.45
+1017,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,batch,5.0
+1018,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,batch,5.0
+1019,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,batch,5.0
+1020,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,batch,5.0
+1021,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,batch,4.5
+1022,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,batch,5.0
+1023,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,batch,4.9
+1024,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,batch,5.0
+1025,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,batch,3.75
+1026,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,batch,5.0
+1027,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,batch,5.0
+1028,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,batch,5.0
+1029,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,batch,5.0
+1030,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,batch,4.3
+1031,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,batch,4.1
+1032,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,batch,5.0
+1033,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,batch,4.7
+1034,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,batch,0.0
+1035,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,batch,5.0
+1036,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,batch,5.0
+1037,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,batch,4.5
+1038,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,batch,0.0
+1039,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,batch,5.0
+1040,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,batch,4.9
+1041,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,batch,4.9
+1042,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,batch,4.75
+1043,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,batch,4.2
+1044,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,batch,4.55
+1045,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,batch,4.5
+1046,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,batch,3.6
+1047,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,batch,0.0
+1048,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,batch,4.5
+1049,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,batch,0.0
+1050,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,batch,4.8
+1051,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,batch,3.35
+1052,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,batch,4.05
+1053,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,batch,4.7
+1054,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,batch,5.0
+1055,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,batch,4.5
+1056,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,batch,0.0
+1057,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,batch,4.5
+1058,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,batch,5.0
+1059,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,batch,4.3
+1060,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,batch,5.0
+1061,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,batch,4.75
+1062,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,batch,5.0
+1063,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,batch,4.3
+1064,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,batch,4.6
+1065,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,batch,5.0
+1066,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,batch,4.3
+1067,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,batch,4.1
+1068,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,batch,5.0
+1069,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,batch,5.0
+1070,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,batch,4.75
+1071,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,batch,5.0
+1072,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,batch,5.0
+1073,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,batch,4.5
+1074,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,batch,5.0
+1075,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,batch,4.3
+1076,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,batch,4.3
+1077,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,batch,4.8
+1078,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,batch,5.0
+1079,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,batch,4.75
+1080,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,batch,4.75
+1081,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,batch,4.5
+1082,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,batch,5.0
+1083,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,batch,5.0
+1084,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,batch,5.0
+1085,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,batch,4.6
+1086,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,batch,4.5
+1087,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,batch,5.0
+1088,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,batch,5.0
+1089,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,batch,4.5
+1090,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,batch,5.0
+1091,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,batch,0.0
+1092,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,batch,0.0
+1093,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,batch,4.3
+1094,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,batch,4.3
+1095,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,batch,5.0
+1096,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,batch,4.8
+1097,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,batch,3.3
+1098,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,batch,3.75
+1099,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,batch,5.0
+1100,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,batch,5.0
+1101,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,batch,4.5
+1102,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,batch,5.0
+1103,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,batch,4.3
+1104,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,batch,4.5
+1105,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,batch,4.5
+1106,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,batch,4.0
+1107,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,batch,4.25
+1108,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,batch,4.8
+1109,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,batch,5.0
+1110,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,batch,0.0
+1111,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,batch,5.0
+1112,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,batch,4.1
+1113,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,batch,3.35
+1114,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,batch,4.25
+1115,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,batch,4.7
+1116,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,batch,5.0
+1117,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,batch,5.0
+1118,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,batch,0.0
+1119,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,batch,0.0
+1120,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,batch,4.5
+1121,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,batch,4.3
+1122,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,batch,0.0
+1123,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,batch,3.75
+1124,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,batch,3.5
+1125,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,batch,4.0
+1126,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,batch,4.5
+1127,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,batch,5.0
+1128,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,batch,0.0
+1129,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,batch,4.875
+1130,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,batch,0.0
+1131,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,batch,0.0
+1132,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,batch,5.0
+1133,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,batch,5.0
+1134,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,batch,4.45
+1135,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,batch,0.0
+1136,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,batch,0.0
+1137,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,batch,0.0
+1138,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,batch,4.05
+1139,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,batch,4.1
+1140,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,batch,4.8
+1141,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,batch,5.0
+1142,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,batch,5.0
+1143,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,batch,4.7
+1144,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,batch,4.5
+1145,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,batch,0.0
+1146,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,batch,5.0
+1147,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,batch,5.0
+1148,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,batch,0.0
+1149,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,batch,0.0
+1150,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,batch,4.0
+1151,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,batch,3.5
+1152,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,batch,3.45
+1153,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,iterative,5.0
+1154,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,iterative,0.0
+1155,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,iterative,0.0
+1156,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,iterative,4.4
+1157,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,iterative,4.9
+1158,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,iterative,4.0
+1159,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,iterative,4.25
+1160,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,iterative,5.0
+1161,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,iterative,5.0
+1162,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,iterative,4.9
+1163,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,iterative,4.4
+1164,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,iterative,4.9
+1165,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,iterative,4.4
+1166,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,iterative,3.95
+1167,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,iterative,4.9
+1168,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,iterative,4.8
+1169,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,iterative,4.45
+1170,Claude 3.7 Sonnet,USA,paid,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,iterative,0.0
+1171,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,iterative,4.4
+1172,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,iterative,4.4
+1173,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,iterative,5.0
+1174,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,iterative,4.2
+1175,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,iterative,3.7
+1176,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,iterative,4.9
+1177,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,iterative,3.9
+1178,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,iterative,2.8
+1179,Claude 3.7 Sonnet,USA,paid,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,iterative,2.4
+1180,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,iterative,4.9
+1181,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,iterative,4.3
+1182,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,iterative,0.0
+1183,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,iterative,4.9
+1184,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,iterative,3.9
+1185,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,iterative,4.5
+1186,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,iterative,3.95
+1187,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,iterative,4.75
+1188,Claude 3.7 Sonnet,USA,paid,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,iterative,4.8
+1189,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,iterative,4.7
+1190,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,iterative,3.8
+1191,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,iterative,4.4
+1192,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,iterative,4.9
+1193,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,iterative,3.5
+1194,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,iterative,4.9
+1195,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,iterative,4.55
+1196,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,iterative,4.3
+1197,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,iterative,4.55
+1198,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,iterative,4.8
+1199,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,iterative,4.0
+1200,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,iterative,0.0
+1201,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,iterative,4.4
+1202,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,iterative,4.9
+1203,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,iterative,4.2
+1204,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,iterative,5.0
+1205,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,iterative,4.75
+1206,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,iterative,5.0
+1207,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,iterative,5.0
+1208,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,iterative,4.5
+1209,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,iterative,4.9
+1210,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,iterative,4.2
+1211,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,iterative,4.9
+1212,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,iterative,4.9
+1213,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,iterative,4.75
+1214,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,iterative,4.55
+1215,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,iterative,4.35
+1216,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,iterative,3.5
+1217,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,iterative,4.4
+1218,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,iterative,0.0
+1219,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,iterative,0.0
+1220,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,iterative,3.95
+1221,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,iterative,0.0
+1222,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,iterative,4.55
+1223,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,iterative,4.75
+1224,Claude 3.7 Sonnet,USA,paid,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,iterative,4.75
+1225,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,iterative,4.9
+1226,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,iterative,4.9
+1227,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,iterative,4.9
+1228,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,iterative,4.9
+1229,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,iterative,4.5
+1230,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,iterative,4.4
+1231,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,iterative,5.0
+1232,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,iterative,4.55
+1233,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,iterative,4.75
+1234,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,iterative,4.9
+1235,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,iterative,0.0
+1236,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,iterative,0.0
+1237,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,iterative,4.2
+1238,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,iterative,4.2
+1239,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,iterative,4.2
+1240,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,iterative,0.0
+1241,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,iterative,4.7
+1242,Claude 3.7 Sonnet,USA,paid,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,iterative,4.8
+1243,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,iterative,5.0
+1244,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,iterative,4.4
+1245,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,iterative,4.9
+1246,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,iterative,4.2
+1247,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,iterative,4.2
+1248,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,iterative,4.9
+1249,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,iterative,5.0
+1250,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,iterative,4.75
+1251,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,iterative,4.8
+1252,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,iterative,4.9
+1253,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,iterative,0.0
+1254,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,iterative,0.0
+1255,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,iterative,4.9
+1256,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,iterative,3.5
+1257,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,iterative,3.125
+1258,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,iterative,4.0
+1259,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,iterative,4.3
+1260,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,iterative,3.8
+1261,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,iterative,4.2
+1262,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,iterative,0.0
+1263,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,iterative,0.0
+1264,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,iterative,0.0
+1265,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,iterative,4.2
+1266,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,iterative,4.9
+1267,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,iterative,4.25
+1268,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,iterative,4.25
+1269,Claude 3.7 Sonnet,USA,paid,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,iterative,4.75
+1270,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,iterative,5.0
+1271,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,iterative,4.0
+1272,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,iterative,0.0
+1273,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,iterative,0.0
+1274,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,iterative,0.0
+1275,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,iterative,0.0
+1276,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,iterative,0.0
+1277,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,iterative,5.0
+1278,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,iterative,4.8
+1279,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,iterative,5.0
+1280,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,iterative,0.0
+1281,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,iterative,0.0
+1282,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,iterative,0.0
+1283,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,iterative,4.0
+1284,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,iterative,0.0
+1285,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,iterative,5.0
+1286,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,iterative,4.8
+1287,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,iterative,4.5
+1288,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,iterative,4.4
+1289,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,iterative,0.0
+1290,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,iterative,0.0
+1291,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,iterative,4.9
+1292,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,iterative,0.0
+1293,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,iterative,0.0
+1294,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,iterative,3.45
+1295,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,iterative,5.0
+1296,Claude 3.7 Sonnet,USA,paid,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,iterative,0.0
+1729,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,batch,5.0
+1730,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,batch,4.6
+1731,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,batch,4.6
+1732,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,batch,4.3
+1733,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,batch,4.3
+1734,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,batch,5.0
+1735,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,batch,3.45
+1736,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,batch,4.8
+1737,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,batch,4.05
+1738,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,batch,5.0
+1739,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,batch,0.0
+1740,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,batch,4.4
+1741,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,batch,0.0
+1742,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,batch,0.0
+1743,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,batch,4.3
+1744,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,batch,0.0
+1745,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,batch,3.55
+1746,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,batch,4.6
+1747,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,batch,5.0
+1748,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,batch,5.0
+1749,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,batch,0.0
+1750,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,batch,4.1
+1751,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,batch,0.0
+1752,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,batch,5.0
+1753,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,batch,1.85
+1754,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,batch,4.25
+1755,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,batch,0.0
+1756,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,batch,0.0
+1757,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,batch,4.1
+1758,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,batch,0.0
+1759,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,batch,4.3
+1760,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,batch,4.3
+1761,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,batch,4.4
+1762,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,batch,3.5
+1763,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,batch,4.55
+1764,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,batch,4.55
+1765,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,batch,5.0
+1766,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,batch,0.0
+1767,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,batch,0.0
+1768,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,batch,3.6
+1769,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,batch,0.0
+1770,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,batch,0.0
+1771,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,batch,0.0
+1772,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,batch,4.3
+1773,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,batch,4.2
+1774,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,batch,4.5
+1775,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,batch,5.0
+1776,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,batch,4.0
+1777,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,batch,0.0
+1778,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,batch,3.8
+1779,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,batch,0.0
+1780,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,batch,3.85
+1781,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,batch,4.75
+1782,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,batch,5.0
+1783,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,batch,5.0
+1784,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,batch,4.6
+1785,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,batch,4.8
+1786,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,batch,4.6
+1787,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,batch,4.4
+1788,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,batch,5.0
+1789,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,batch,3.1
+1790,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,batch,4.75
+1791,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,batch,5.0
+1792,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,batch,4.5
+1793,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,batch,0.0
+1794,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,batch,0.0
+1795,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,batch,4.05
+1796,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,batch,0.0
+1797,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,batch,4.05
+1798,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,batch,3.95
+1799,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,batch,4.25
+1800,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,batch,2.35
+1801,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,batch,4.5
+1802,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,batch,3.4
+1803,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,batch,4.8
+1804,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,batch,4.4
+1805,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,batch,0.0
+1806,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,batch,4.3
+1807,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,batch,2.15
+1808,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,batch,4.05
+1809,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,batch,2.25
+1810,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,batch,5.0
+1811,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,batch,0.0
+1812,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,batch,0.0
+1813,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,batch,0.0
+1814,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,batch,0.0
+1815,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,batch,4.2
+1816,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,batch,0.0
+1817,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,batch,4.15
+1818,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,batch,4.25
+1819,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,batch,0.0
+1820,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,batch,5.0
+1821,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,batch,3.9
+1822,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,batch,4.3
+1823,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,batch,0.0
+1824,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,batch,4.5
+1825,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,batch,4.05
+1826,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,batch,4.25
+1827,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,batch,4.05
+1828,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,batch,0.0
+1829,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,batch,0.0
+1830,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,batch,0.0
+1831,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,batch,3.7
+1832,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,batch,3.85
+1833,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,batch,4.8
+1834,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,batch,3.85
+1835,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,batch,4.5
+1836,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,batch,4.5
+1837,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,batch,5.0
+1838,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,batch,0.0
+1839,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,batch,0.0
+1840,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,batch,0.0
+1841,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,batch,0.0
+1842,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,batch,0.0
+1843,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,batch,2.0
+1844,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,batch,3.75
+1845,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,batch,3.75
+1846,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,batch,5.0
+1847,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,batch,0.0
+1848,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,batch,0.0
+1849,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,batch,3.9
+1850,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,batch,3.9
+1851,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,batch,3.85
+1852,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,batch,3.75
+1853,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,batch,2.7
+1854,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,batch,4.5
+1855,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,batch,0.0
+1856,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,batch,0.0
+1857,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,batch,5.0
+1858,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,batch,0.0
+1859,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,batch,0.0
+1860,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,batch,0.0
+1861,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,batch,0.0
+1862,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,batch,2.7
+1863,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,batch,3.7
+1864,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,batch,4.9
+1865,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,batch,0.0
+1866,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,batch,0.0
+1867,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,batch,5.0
+1868,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,batch,0.0
+1869,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,batch,0.0
+1870,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,batch,4.0
+1871,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,batch,4.1
+1872,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,batch,0.0
+1873,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,1,country,reading,identify,iterative,3.5
+1874,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,2,country,reading,locate,iterative,0.0
+1875,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,3,country,reading,retrieve value,iterative,0.0
+1876,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,4,country,analysis,compare,iterative,0.0
+1877,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,5,country,analysis,cluster,iterative,4.2
+1878,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,6,country,analysis,associate,iterative,3.5
+1879,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,7,country,interpretation,interpret,iterative,0.0
+1880,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,8,country,interpretation,cause/effect,iterative,4.45
+1881,DeepSeek-R1,China,free,SINGLE-G-ATL-1,low,choropleth,,,atlas,9,country,interpretation,predict,iterative,0.0
+1882,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,10,country,reading,identify,iterative,4.9
+1883,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,11,country,reading,locate,iterative,4.9
+1884,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,12,country,reading,retrieve value,iterative,4.4
+1885,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,13,country,analysis,compare,iterative,0.0
+1886,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,14,country,analysis,cluster,iterative,4.3
+1887,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,15,country,analysis,associate,iterative,4.0
+1888,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,16,country,interpretation,interpret,iterative,0.0
+1889,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,17,country,interpretation,cause/effect,iterative,0.0
+1890,DeepSeek-R1,China,free,SINGLE-G-ATL-2,low,cartogram,,,atlas,18,country,interpretation,predict,iterative,0.0
+1891,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,19,country,reading,identify,iterative,4.4
+1892,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,20,country,reading,locate,iterative,3.9
+1893,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,21,country,reading,retrieve value,iterative,0.0
+1894,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,22,country,analysis,compare,iterative,0.0
+1895,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,23,country,analysis,cluster,iterative,0.0
+1896,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,24,country,analysis,associate,iterative,4.0
+1897,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,25,country,interpretation,interpret,iterative,3.05
+1898,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,26,country,interpretation,cause/effect,iterative,0.0
+1899,DeepSeek-R1,China,free,SINGLE-G-INST-1,low,choropleth,,,statistical_office,27,country,interpretation,predict,iterative,3.7
+1900,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,28,region,reading,identify,iterative,4.9
+1901,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,29,region,reading,locate,iterative,0.0
+1902,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,30,region,reading,retrieve value,iterative,0.0
+1903,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,31,region,analysis,compare,iterative,3.9
+1904,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,32,region,analysis,cluster,iterative,4.4
+1905,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,33,region,analysis,associate,iterative,4.2
+1906,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,34,region,interpretation,interpret,iterative,4.8
+1907,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,35,region,interpretation,cause/effect,iterative,5.0
+1908,DeepSeek-R1,China,free,SINGLE-D-ATL-1,low,cartogram,,,atlas,36,region,interpretation,predict,iterative,4.3
+1909,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,37,region,reading,identify,iterative,4.9
+1910,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,38,region,reading,locate,iterative,4.0
+1911,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,39,region,reading,retrieve value,iterative,0.0
+1912,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,40,region,analysis,compare,iterative,0.0
+1913,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,41,region,analysis,cluster,iterative,4.2
+1914,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,42,region,analysis,associate,iterative,4.9
+1915,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,43,region,interpretation,interpret,iterative,4.55
+1916,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,44,region,interpretation,cause/effect,iterative,4.45
+1917,DeepSeek-R1,China,free,SINGLE-D-INST-1,low,point-based symbols,proportional symbols,uniform,statistical_office,45,region,interpretation,predict,iterative,4.75
+1918,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,46,region,reading,identify,iterative,0.0
+1919,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,47,region,reading,locate,iterative,3.5
+1920,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,48,region,reading,retrieve value,iterative,0.0
+1921,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,49,region,analysis,compare,iterative,4.4
+1922,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,50,region,analysis,cluster,iterative,4.4
+1923,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,51,region,analysis,associate,iterative,3.25
+1924,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,52,region,interpretation,interpret,iterative,5.0
+1925,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,53,region,interpretation,cause/effect,iterative,4.5
+1926,DeepSeek-R1,China,free,SINGLE-D-INST-2,low,point-based symbols,graduated symbols,uniform,statistical_office,54,region,interpretation,predict,iterative,5.0
+1927,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,55,region,reading,identify,iterative,4.9
+1928,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,56,region,reading,locate,iterative,3.3
+1929,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,57,region,reading,retrieve value,iterative,0.0
+1930,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,58,region,analysis,compare,iterative,0.0
+1931,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,59,region,analysis,cluster,iterative,4.7
+1932,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,60,region,analysis,associate,iterative,4.4
+1933,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,61,region,interpretation,interpret,iterative,3.3
+1934,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,62,region,interpretation,cause/effect,iterative,4.55
+1935,DeepSeek-R1,China,free,SINGLE-D-INST-3,low,point-based symbols,graduated symbols,structural,statistical_office,63,region,interpretation,predict,iterative,4.3
+1936,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,64,region,reading,identify,iterative,3.7
+1937,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,65,region,reading,locate,iterative,4.4
+1938,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,66,region,reading,retrieve value,iterative,0.0
+1939,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,67,region,analysis,compare,iterative,0.0
+1940,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,68,region,analysis,cluster,iterative,0.0
+1941,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,69,region,analysis,associate,iterative,0.0
+1942,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,70,region,interpretation,interpret,iterative,5.0
+1943,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,71,region,interpretation,cause/effect,iterative,5.0
+1944,DeepSeek-R1,China,free,SINGLE-D-INST-4,low,choropleth,,,statistical_office,72,region,interpretation,predict,iterative,3.8
+1945,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,73,country,reading,identify,iterative,4.8
+1946,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,74,country,reading,locate,iterative,4.7
+1947,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,75,country,reading,retrieve value,iterative,4.5
+1948,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,76,country,analysis,compare,iterative,4.7
+1949,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,77,country,analysis,cluster,iterative,4.9
+1950,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,78,country,analysis,associate,iterative,4.4
+1951,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,79,country,interpretation,interpret,iterative,5.0
+1952,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,80,country,interpretation,cause/effect,iterative,5.0
+1953,DeepSeek-R1,China,free,MULTI-G-ATL-1,high,,proportional symbols,uniform,atlas,81,country,interpretation,predict,iterative,4.8
+1954,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,82,country,reading,identify,iterative,3.7
+1955,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,83,country,reading,locate,iterative,0.0
+1956,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,84,country,reading,retrieve value,iterative,0.0
+1957,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,85,country,analysis,compare,iterative,0.0
+1958,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,86,country,analysis,cluster,iterative,0.0
+1959,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,87,country,analysis,associate,iterative,0.0
+1960,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,88,country,interpretation,interpret,iterative,0.0
+1961,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,89,country,interpretation,cause/effect,iterative,0.0
+1962,DeepSeek-R1,China,free,MULTI-G-ATL-2,high,,graduated symbols,structural,atlas,90,country,interpretation,predict,iterative,4.45
+1963,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,91,country,reading,identify,iterative,4.9
+1964,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,92,country,reading,locate,iterative,4.2
+1965,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,93,country,reading,retrieve value,iterative,3.8
+1966,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,94,country,analysis,compare,iterative,3.8
+1967,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,95,country,analysis,cluster,iterative,4.9
+1968,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,96,country,analysis,associate,iterative,0.0
+1969,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,97,country,interpretation,interpret,iterative,4.75
+1970,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,98,country,interpretation,cause/effect,iterative,4.75
+1971,DeepSeek-R1,China,free,MULTI-G-INST-1,high,,proportional symbols,structural,statistical_office,99,country,interpretation,predict,iterative,4.8
+1972,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,100,country,reading,identify,iterative,4.2
+1973,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,101,country,reading,locate,iterative,0.0
+1974,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,102,country,reading,retrieve value,iterative,0.0
+1975,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,103,country,analysis,compare,iterative,4.0
+1976,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,104,country,analysis,cluster,iterative,3.8
+1977,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,105,country,analysis,associate,iterative,2.55
+1978,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,106,country,interpretation,interpret,iterative,3.75
+1979,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,107,country,interpretation,cause/effect,iterative,4.3
+1980,DeepSeek-R1,China,free,MULTI-G-INST-2,high,,proportional symbols,structural,statistical_office,108,country,interpretation,predict,iterative,3.5
+1981,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,109,country,reading,identify,iterative,0.0
+1982,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,110,country,reading,locate,iterative,0.0
+1983,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,111,country,reading,retrieve value,iterative,0.0
+1984,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,112,country,analysis,compare,iterative,0.0
+1985,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,113,country,analysis,cluster,iterative,0.0
+1986,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,114,country,analysis,associate,iterative,0.0
+1987,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,115,country,interpretation,interpret,iterative,4.5
+1988,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,116,country,interpretation,cause/effect,iterative,5.0
+1989,DeepSeek-R1,China,free,MULTI-G-INST-3,high,,proportional symbols,uniform,statistical_office,117,country,interpretation,predict,iterative,4.75
+1990,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,118,region,reading,identify,iterative,4.5
+1991,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,119,region,reading,locate,iterative,4.4
+1992,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,120,region,reading,retrieve value,iterative,0.0
+1993,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,121,region,analysis,compare,iterative,0.0
+1994,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,122,region,analysis,cluster,iterative,4.0
+1995,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,123,region,analysis,associate,iterative,0.0
+1996,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,124,region,interpretation,interpret,iterative,5.0
+1997,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,125,region,interpretation,cause/effect,iterative,4.2
+1998,DeepSeek-R1,China,free,MULTI-D-ATL-1,high,,graduated symbols,uniform,atlas,126,region,interpretation,predict,iterative,5.0
+1999,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,127,region,reading,identify,iterative,0.0
+2000,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,128,region,reading,locate,iterative,0.0
+2001,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,129,region,reading,retrieve value,iterative,0.0
+2002,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,130,region,analysis,compare,iterative,0.0
+2003,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,131,region,analysis,cluster,iterative,0.0
+2004,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,132,region,analysis,associate,iterative,0.0
+2005,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,133,region,interpretation,interpret,iterative,4.8
+2006,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,134,region,interpretation,cause/effect,iterative,4.7
+2007,DeepSeek-R1,China,free,MULTI-D-ATL-2,high,,proportional symbols,structural,atlas,135,region,interpretation,predict,iterative,4.8
+2008,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,136,region,reading,identify,iterative,4.4
+2009,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,137,region,reading,locate,iterative,4.9
+2010,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,138,region,reading,retrieve value,iterative,0.0
+2011,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,139,region,analysis,compare,iterative,4.9
+2012,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,140,region,analysis,cluster,iterative,4.2
+2013,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,141,region,analysis,associate,iterative,0.0
+2014,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,142,region,interpretation,interpret,iterative,0.0
+2015,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,143,region,interpretation,cause/effect,iterative,5.0
+2016,DeepSeek-R1,China,free,MULTI-D-ATL-3,high,,graduated symbols,uniform,atlas,144,region,interpretation,predict,iterative,0.0

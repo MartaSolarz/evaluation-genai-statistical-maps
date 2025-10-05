@@ -1,0 +1,1499 @@
+Index: 1728 entries, 1 to 2304
+Data columns (total 15 columns):
+ #   Column                Non-Null Count  Dtype
+---  ------                --------------  -----
+ 0   model_name            1728 non-null   object
+ 1   provider_country      1728 non-null   object
+ 2   licence_type          1728 non-null   object
+ 3   map_code              1728 non-null   object
+ 4   graphical_complexity  1728 non-null   object
+ 5   viz_technique         864 non-null    object
+ 6   symbol_scaling        1188 non-null   object
+ 7   diagram_structure     1188 non-null   object
+ 8   map_source            1728 non-null   object
+ 9   question_id           1728 non-null   int64
+ 10  nuts_level            1728 non-null   object
+ 11  map_usage_type        1728 non-null   object
+ 12  task_type             1728 non-null   object
+ 13  test_mode             1728 non-null   object
+ 14  score                 1728 non-null   float64
+dtypes: float64(1), int64(1), object(13)
+memory usage: 216.0+ KB
+1. BASIC INFORMATION
+--------------------------------------------------------------------------------
+Total observations: 1728
+Unique questions: 144
+Unique models: 12
+Models analyzed: Claude 3.5 Sonnet v2, Claude 3.7 Sonnet, DeepSeek-R1, GPT o3, GPT-4o, Gemini 1.5 Pro, Gemma 3, Grok-3, MiniMax-01, Mistral Large, Qwen2.5-Max, Sonar
+
+Test mode(s): batch
+2. MODEL DISTRIBUTION
+--------------------------------------------------------------------------------
+
+Observations per model:
+  Claude 3.5 Sonnet v2: 144
+  Claude 3.7 Sonnet: 144
+  DeepSeek-R1: 144
+  GPT o3: 144
+  GPT-4o: 144
+  Gemini 1.5 Pro: 144
+  Gemma 3: 144
+  Grok-3: 144
+  MiniMax-01: 144
+  Mistral Large: 144
+  Qwen2.5-Max: 144
+  Sonar: 144
+
+Balance ratio (max/min): 1.00
+Design reasonably balanced across models
+3. ZERO VALUES ANALYSIS
+--------------------------------------------------------------------------------
+Zero values: 458 (26.50%)
+Zero values by model:
+  Claude 3.5 Sonnet v2: 28 (19.4%)
+  Claude 3.7 Sonnet: 21 (14.6%)
+  DeepSeek-R1: 48 (33.3%)
+  GPT o3: 29 (20.1%)
+  GPT-4o: 44 (30.6%)
+  Gemini 1.5 Pro: 34 (23.6%)
+  Gemma 3: 45 (31.2%)
+  Grok-3: 36 (25.0%)
+  MiniMax-01: 47 (32.6%)
+  Mistral Large: 36 (25.0%)
+  Qwen2.5-Max: 41 (28.5%)
+  Sonar: 49 (34.0%)
+
+Note: Zeros represent failed responses, not missing data.
+All analyses include zeros as legitimate failure outcomes.
+4. DESCRIPTIVE STATISTICS
+--------------------------------------------------------------------------------
+Overall dataset:
+
+Statistics by 'model_name':
+Claude 3.5 Sonnet v2:
+  M = 3.58, 95% CI = (3.27, 3.88), Mdn = 4.43, SD = 1.86, Range = [0.0, 5.0], Q1 = 3.43, Q3 = 5.00, N = 144
+Claude 3.7 Sonnet:
+  M = 3.94, 95% CI = (3.66, 4.21), Mdn = 4.53, SD = 1.68, Range = [0.0, 5.0], Q1 = 4.05, Q3 = 5.00, N = 144
+DeepSeek-R1:
+  M = 2.80, 95% CI = (2.46, 3.14), Mdn = 3.90, SD = 2.07, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 144
+GPT o3:
+  M = 3.51, 95% CI = (3.21, 3.82), Mdn = 4.30, SD = 1.84, Range = [0.0, 5.0], Q1 = 3.40, Q3 = 4.80, N = 144
+GPT-4o:
+  M = 2.98, 95% CI = (2.64, 3.32), Mdn = 4.00, SD = 2.05, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.56, N = 144
+Gemini 1.5 Pro:
+  M = 3.29, 95% CI = (2.97, 3.61), Mdn = 4.10, SD = 1.93, Range = [0.0, 5.0], Q1 = 2.41, Q3 = 4.80, N = 144
+Gemma 3:
+  M = 2.98, 95% CI = (2.64, 3.32), Mdn = 4.05, SD = 2.06, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 144
+Grok-3:
+  M = 3.35, 95% CI = (3.02, 3.68), Mdn = 4.30, SD = 2.01, Range = [0.0, 5.0], Q1 = 1.54, Q3 = 5.00, N = 144
+MiniMax-01:
+  M = 2.88, 95% CI = (2.54, 3.21), Mdn = 4.00, SD = 2.06, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 144
+Mistral Large:
+  M = 3.33, 95% CI = (3.00, 3.65), Mdn = 4.28, SD = 1.98, Range = [0.0, 5.0], Q1 = 2.06, Q3 = 4.80, N = 144
+Qwen2.5-Max:
+  M = 2.95, 95% CI = (2.62, 3.28), Mdn = 3.90, SD = 2.00, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.51, N = 144
+Sonar:
+  M = 2.65, 95% CI = (2.31, 2.98), Mdn = 3.67, SD = 2.02, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.33, N = 144
+--------------------------------------------------------------------------------
+Reading subset:
+
+Statistics by 'model_name':
+Claude 3.5 Sonnet v2:
+  M = 3.36, 95% CI = (2.69, 4.03), Mdn = 5.00, SD = 2.30, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+Claude 3.7 Sonnet:
+  M = 3.50, 95% CI = (2.87, 4.14), Mdn = 4.70, SD = 2.17, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+DeepSeek-R1:
+  M = 2.53, 95% CI = (1.84, 3.22), Mdn = 3.95, SD = 2.38, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.93, N = 48
+GPT o3:
+  M = 3.17, 95% CI = (2.51, 3.83), Mdn = 4.50, SD = 2.28, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+GPT-4o:
+  M = 2.09, 95% CI = (1.39, 2.79), Mdn = 0.00, SD = 2.41, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.93, N = 48
+Gemini 1.5 Pro:
+  M = 3.10, 95% CI = (2.43, 3.78), Mdn = 4.60, SD = 2.33, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+Gemma 3:
+  M = 2.05, 95% CI = (1.37, 2.74), Mdn = 0.00, SD = 2.36, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 48
+Grok-3:
+  M = 3.42, 95% CI = (2.78, 4.07), Mdn = 4.70, SD = 2.23, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+MiniMax-01:
+  M = 2.23, 95% CI = (1.54, 2.91), Mdn = 0.00, SD = 2.36, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.60, N = 48
+Mistral Large:
+  M = 3.24, 95% CI = (2.57, 3.92), Mdn = 4.70, SD = 2.32, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+Qwen2.5-Max:
+  M = 2.78, 95% CI = (2.09, 3.48), Mdn = 4.50, SD = 2.40, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 5.00, N = 48
+Sonar:
+  M = 2.46, 95% CI = (1.79, 3.13), Mdn = 3.90, SD = 2.31, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.58, N = 48
+--------------------------------------------------------------------------------
+Analysis subset:
+
+Statistics by 'model_name':
+Claude 3.5 Sonnet v2:
+  M = 3.64, 95% CI = (3.11, 4.16), Mdn = 4.30, SD = 1.81, Range = [0.0, 5.0], Q1 = 3.90, Q3 = 4.85, N = 48
+Claude 3.7 Sonnet:
+  M = 3.89, 95% CI = (3.41, 4.38), Mdn = 4.50, SD = 1.67, Range = [0.0, 5.0], Q1 = 4.10, Q3 = 4.90, N = 48
+DeepSeek-R1:
+  M = 2.50, 95% CI = (1.88, 3.13), Mdn = 3.85, SD = 2.16, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.30, N = 48
+GPT o3:
+  M = 3.51, 95% CI = (3.00, 4.02), Mdn = 4.10, SD = 1.76, Range = [0.0, 5.0], Q1 = 3.60, Q3 = 4.62, N = 48
+GPT-4o:
+  M = 2.94, 95% CI = (2.37, 3.51), Mdn = 3.74, SD = 1.97, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.35, N = 48
+Gemini 1.5 Pro:
+  M = 3.07, 95% CI = (2.48, 3.66), Mdn = 4.10, SD = 2.04, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 48
+Gemma 3:
+  M = 3.12, 95% CI = (2.55, 3.69), Mdn = 4.10, SD = 1.95, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.30, N = 48
+Grok-3:
+  M = 3.23, 95% CI = (2.64, 3.81), Mdn = 4.20, SD = 2.02, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 48
+MiniMax-01:
+  M = 2.44, 95% CI = (1.83, 3.05), Mdn = 3.88, SD = 2.10, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.30, N = 48
+Mistral Large:
+  M = 2.90, 95% CI = (2.29, 3.51), Mdn = 4.10, SD = 2.11, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.50, N = 48
+Qwen2.5-Max:
+  M = 2.62, 95% CI = (2.01, 3.22), Mdn = 3.83, SD = 2.08, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.30, N = 48
+Sonar:
+  M = 2.54, 95% CI = (1.95, 3.12), Mdn = 3.70, SD = 2.02, Range = [0.0, 5.0], Q1 = 0.00, Q3 = 4.06, N = 48
+--------------------------------------------------------------------------------
+Interpretation subset:
+
+Statistics by 'model_name':
+Claude 3.5 Sonnet v2:
+  M = 3.73, 95% CI = (3.33, 4.14), Mdn = 4.17, SD = 1.40, Range = [0.0, 5.0], Q1 = 3.43, Q3 = 4.75, N = 48
+Claude 3.7 Sonnet:
+  M = 4.41, 95% CI = (4.17, 4.65), Mdn = 4.70, SD = 0.84, Range = [0.0, 5.0], Q1 = 4.04, Q3 = 5.00, N = 48
+DeepSeek-R1:
+  M = 3.37, 95% CI = (2.93, 3.80), Mdn = 3.98, SD = 1.50, Range = [0.0, 5.0], Q1 = 2.70, Q3 = 4.26, N = 48
+GPT o3:
+  M = 3.86, 95% CI = (3.48, 4.24), Mdn = 4.25, SD = 1.32, Range = [0.0, 5.0], Q1 = 3.68, Q3 = 4.71, N = 48
+GPT-4o:
+  M = 3.90, 95% CI = (3.56, 4.24), Mdn = 4.25, SD = 1.17, Range = [0.0, 5.0], Q1 = 3.88, Q3 = 4.50, N = 48
+Gemini 1.5 Pro:
+  M = 3.69, 95% CI = (3.33, 4.05), Mdn = 4.03, SD = 1.25, Range = [0.0, 5.0], Q1 = 3.23, Q3 = 4.51, N = 48
+Gemma 3:
+  M = 3.75, 95% CI = (3.34, 4.17), Mdn = 4.12, SD = 1.43, Range = [0.0, 5.0], Q1 = 3.84, Q3 = 4.59, N = 48
+Grok-3:
+  M = 3.40, 95% CI = (2.88, 3.92), Mdn = 4.05, SD = 1.79, Range = [0.0, 5.0], Q1 = 2.98, Q3 = 4.75, N = 48
+MiniMax-01:
+  M = 3.96, 95% CI = (3.66, 4.25), Mdn = 4.25, SD = 1.03, Range = [0.0, 5.0], Q1 = 3.79, Q3 = 4.51, N = 48
+Mistral Large:
+  M = 3.84, 95% CI = (3.47, 4.21), Mdn = 4.05, SD = 1.28, Range = [0.0, 5.0], Q1 = 3.75, Q3 = 4.55, N = 48
+Qwen2.5-Max:
+  M = 3.46, 95% CI = (3.09, 3.83), Mdn = 3.98, SD = 1.28, Range = [0.0, 5.0], Q1 = 2.73, Q3 = 4.30, N = 48
+Sonar:
+  M = 2.95, 95% CI = (2.46, 3.44), Mdn = 3.48, SD = 1.69, Range = [0.0, 5.0], Q1 = 2.38, Q3 = 4.25, N = 48
+5. DISTRIBUTION TESTS
+--------------------------------------------------------------------------------
+
+Shapiro-Wilk normality tests:
+Overall dataset:
+Shapiro-Wilk test for 'score' by 'model_name':
+
+  Claude 3.5 Sonnet v2: W = 0.7025, p = 0.0000 (non-normal, n=144)
+  Claude 3.7 Sonnet: W = 0.6148, p = 0.0000 (non-normal, n=144)
+  DeepSeek-R1: W = 0.7589, p = 0.0000 (non-normal, n=144)
+  GPT o3: W = 0.7015, p = 0.0000 (non-normal, n=144)
+  GPT-4o: W = 0.7487, p = 0.0000 (non-normal, n=144)
+  Gemini 1.5 Pro: W = 0.7427, p = 0.0000 (non-normal, n=144)
+  Gemma 3: W = 0.7256, p = 0.0000 (non-normal, n=144)
+  Grok-3: W = 0.7086, p = 0.0000 (non-normal, n=144)
+  MiniMax-01: W = 0.7379, p = 0.0000 (non-normal, n=144)
+  Mistral Large: W = 0.7081, p = 0.0000 (non-normal, n=144)
+  Qwen2.5-Max: W = 0.7779, p = 0.0000 (non-normal, n=144)
+  Sonar: W = 0.7874, p = 0.0000 (non-normal, n=144)
+
+Overall: W = 0.7372, p = 0.0000 (non-normal, n=1728)
+
+Conclusion: Non-parametric tests required (Kruskal-Wallis, Mann-Whitney)
+--------------------------------------------------------------------------------
+Reading subset:
+Shapiro-Wilk test for 'score' by 'model_name':
+
+  Claude 3.5 Sonnet v2: W = 0.6226, p = 0.0000 (non-normal, n=48)
+  Claude 3.7 Sonnet: W = 0.6263, p = 0.0000 (non-normal, n=48)
+  DeepSeek-R1: W = 0.6956, p = 0.0000 (non-normal, n=48)
+  GPT o3: W = 0.6644, p = 0.0000 (non-normal, n=48)
+  GPT-4o: W = 0.6634, p = 0.0000 (non-normal, n=48)
+  Gemini 1.5 Pro: W = 0.6571, p = 0.0000 (non-normal, n=48)
+  Gemma 3: W = 0.6686, p = 0.0000 (non-normal, n=48)
+  Grok-3: W = 0.6282, p = 0.0000 (non-normal, n=48)
+  MiniMax-01: W = 0.6856, p = 0.0000 (non-normal, n=48)
+  Mistral Large: W = 0.6387, p = 0.0000 (non-normal, n=48)
+  Qwen2.5-Max: W = 0.6798, p = 0.0000 (non-normal, n=48)
+  Sonar: W = 0.7113, p = 0.0000 (non-normal, n=48)
+
+Overall: W = 0.6786, p = 0.0000 (non-normal, n=576)
+
+Conclusion: Non-parametric tests required (Kruskal-Wallis, Mann-Whitney)
+--------------------------------------------------------------------------------
+Analysis subset:
+Shapiro-Wilk test for 'score' by 'model_name':
+
+  Claude 3.5 Sonnet v2: W = 0.6578, p = 0.0000 (non-normal, n=48)
+  Claude 3.7 Sonnet: W = 0.6108, p = 0.0000 (non-normal, n=48)
+  DeepSeek-R1: W = 0.7222, p = 0.0000 (non-normal, n=48)
+  GPT o3: W = 0.6984, p = 0.0000 (non-normal, n=48)
+  GPT-4o: W = 0.7656, p = 0.0000 (non-normal, n=48)
+  Gemini 1.5 Pro: W = 0.7282, p = 0.0000 (non-normal, n=48)
+  Gemma 3: W = 0.6967, p = 0.0000 (non-normal, n=48)
+  Grok-3: W = 0.6980, p = 0.0000 (non-normal, n=48)
+  MiniMax-01: W = 0.7078, p = 0.0000 (non-normal, n=48)
+  Mistral Large: W = 0.7169, p = 0.0000 (non-normal, n=48)
+  Qwen2.5-Max: W = 0.7433, p = 0.0000 (non-normal, n=48)
+  Sonar: W = 0.7528, p = 0.0000 (non-normal, n=48)
+
+Overall: W = 0.7255, p = 0.0000 (non-normal, n=576)
+
+Conclusion: Non-parametric tests required (Kruskal-Wallis, Mann-Whitney)
+--------------------------------------------------------------------------------
+Interpretation subset:
+Shapiro-Wilk test for 'score' by 'model_name':
+
+  Claude 3.5 Sonnet v2: W = 0.7920, p = 0.0000 (non-normal, n=48)
+  Claude 3.7 Sonnet: W = 0.6629, p = 0.0000 (non-normal, n=48)
+  DeepSeek-R1: W = 0.7944, p = 0.0000 (non-normal, n=48)
+  GPT o3: W = 0.7098, p = 0.0000 (non-normal, n=48)
+  GPT-4o: W = 0.6932, p = 0.0000 (non-normal, n=48)
+  Gemini 1.5 Pro: W = 0.8249, p = 0.0000 (non-normal, n=48)
+  Gemma 3: W = 0.6956, p = 0.0000 (non-normal, n=48)
+  Grok-3: W = 0.7609, p = 0.0000 (non-normal, n=48)
+  MiniMax-01: W = 0.7414, p = 0.0000 (non-normal, n=48)
+  Mistral Large: W = 0.6804, p = 0.0000 (non-normal, n=48)
+  Qwen2.5-Max: W = 0.8512, p = 0.0000 (non-normal, n=48)
+  Sonar: W = 0.8569, p = 0.0000 (non-normal, n=48)
+
+Overall: W = 0.7656, p = 0.0000 (non-normal, n=576)
+
+Conclusion: Non-parametric tests required (Kruskal-Wallis, Mann-Whitney)
+6. HOMOGENEITY OF VARIANCE
+--------------------------------------------------------------------------------
+Levene's test for 'score' by 'model_name':
+W = 2.7026, p = 0.0019
+Conclusion: Variances are heterogeneous - use Welch's ANOVA or non-parametric tests
+Levene's test for 'score' by 'model_name':
+W = 0.8068, p = 0.6334
+Conclusion: Variances are homogeneous
+Levene's test for 'score' by 'model_name':
+W = 1.5696, p = 0.1037
+Conclusion: Variances are homogeneous
+Levene's test for 'score' by 'model_name':
+W = 2.4537, p = 0.0053
+Conclusion: Variances are heterogeneous - use Welch's ANOVA or non-parametric tests
+7. MODEL CHARACTERISTICS DISTRIBUTION
+--------------------------------------------------------------------------------
+
+Provider country distribution:
+provider_country      China  France  USA
+model_name
+Claude 3.5 Sonnet v2      0       0  144
+Claude 3.7 Sonnet         0       0  144
+DeepSeek-R1             144       0    0
+GPT o3                    0       0  144
+GPT-4o                    0       0  144
+Gemini 1.5 Pro            0       0  144
+Gemma 3                   0       0  144
+Grok-3                    0       0  144
+MiniMax-01              144       0    0
+Mistral Large             0     144    0
+Qwen2.5-Max             144       0    0
+Sonar                     0       0  144
+
+License distribution:
+licence_type          free  paid
+model_name
+Claude 3.5 Sonnet v2     0   144
+Claude 3.7 Sonnet        0   144
+DeepSeek-R1            144     0
+GPT o3                   0   144
+GPT-4o                   0   144
+Gemini 1.5 Pro           0   144
+Gemma 3                144     0
+Grok-3                   0   144
+MiniMax-01             144     0
+Mistral Large            0   144
+Qwen2.5-Max            144     0
+Sonar                    0   144
+8. TASK CHARACTERISTICS
+--------------------------------------------------------------------------------
+
+Map usage types:
+map_usage_type
+analysis          576
+interpretation    576
+reading           576
+Name: count, dtype: int64
+
+Graphical complexity levels:
+graphical_complexity
+high    864
+low     864
+Name: count, dtype: int64
+
+NUTS levels:
+nuts_level
+country    864
+region     864
+Name: count, dtype: int64
+
+Map sources:
+map_source
+atlas                 864
+statistical_office    864
+Name: count, dtype: int64
+M1: MODEL RANKING
+--------------------------------------------------------------------------------
+Kruskal-Wallis H = 90.453, p = 0.000000
+Effect size (ε²) = 0.046
+Significant: YES
+
+Post-hoc pairwise comparisons (Dunn test with FDR correction):
+
+32 significant pairwise differences found:
+             Model 1        Model 2      p-value
+   Claude 3.7 Sonnet          Sonar 1.352936e-10
+   Claude 3.7 Sonnet    DeepSeek-R1 8.490153e-08
+   Claude 3.7 Sonnet     MiniMax-01 1.014199e-07
+   Claude 3.7 Sonnet    Qwen2.5-Max 7.254231e-07
+   Claude 3.7 Sonnet         GPT-4o 2.173157e-06
+   Claude 3.7 Sonnet        Gemma 3 2.236691e-06
+Claude 3.5 Sonnet v2          Sonar 2.274644e-06
+              Grok-3          Sonar 2.119598e-04
+              GPT o3          Sonar 2.119598e-04
+Claude 3.5 Sonnet v2    DeepSeek-R1 2.845958e-04
+Claude 3.5 Sonnet v2     MiniMax-01 3.898157e-04
+       Mistral Large          Sonar 1.055405e-03
+   Claude 3.7 Sonnet Gemini 1.5 Pro 1.055405e-03
+Claude 3.5 Sonnet v2    Qwen2.5-Max 1.457701e-03
+Claude 3.5 Sonnet v2         GPT-4o 3.322824e-03
+   Claude 3.7 Sonnet  Mistral Large 3.472242e-03
+Claude 3.5 Sonnet v2        Gemma 3 3.472242e-03
+      Gemini 1.5 Pro          Sonar 3.506418e-03
+         DeepSeek-R1         Grok-3 6.210198e-03
+         DeepSeek-R1         GPT o3 6.223033e-03
+              Grok-3     MiniMax-01 7.755006e-03
+              GPT o3     MiniMax-01 7.797224e-03
+   Claude 3.7 Sonnet         GPT o3 1.258069e-02
+   Claude 3.7 Sonnet         Grok-3 1.266640e-02
+         DeepSeek-R1  Mistral Large 2.117918e-02
+              Grok-3    Qwen2.5-Max 2.117918e-02
+              GPT o3    Qwen2.5-Max 2.117918e-02
+          MiniMax-01  Mistral Large 2.621448e-02
+              GPT-4o         Grok-3 3.710737e-02
+              GPT o3         GPT-4o 3.744305e-02
+             Gemma 3         Grok-3 3.860593e-02
+              GPT o3        Gemma 3 3.901736e-02
+
+Model Rankings (by mean score):
+1. Claude 3.7 Sonnet: M=3.936, Mdn=4.525, SD=1.685
+2. Claude 3.5 Sonnet v2: M=3.577, Mdn=4.425, SD=1.865
+3. GPT o3: M=3.513, Mdn=4.300, SD=1.838
+4. Grok-3: M=3.351, Mdn=4.300, SD=2.008
+5. Mistral Large: M=3.328, Mdn=4.275, SD=1.979
+6. Gemini 1.5 Pro: M=3.288, Mdn=4.100, SD=1.934
+7. GPT-4o: M=2.978, Mdn=4.000, SD=2.046
+8. Gemma 3: M=2.976, Mdn=4.050, SD=2.063
+9. Qwen2.5-Max: M=2.953, Mdn=3.900, SD=1.996
+10. MiniMax-01: M=2.876, Mdn=4.000, SD=2.056
+11. DeepSeek-R1: M=2.802, Mdn=3.900, SD=2.071
+12. Sonar: M=2.648, Mdn=3.675, SD=2.021
+M2: PROVIDER COUNTRY
+--------------------------------------------------------------------------------
+Country distribution: {'USA': np.int64(1152), 'China': np.int64(432), 'France': np.int64(144)}
+
+Kruskal-Wallis H = 21.939, p = 0.000017
+Effect size (ε²) = 0.012
+Significant: YES
+
+Country performance:
+                      mean       std  count
+provider_country
+France            3.328299  1.979374    144
+USA               3.283247  1.967697   1152
+China             2.876910  2.037589    432
+
+Post-hoc comparisons:
+           China    France       USA
+China   1.000000  0.004172  0.000017
+France  0.004172  1.000000  0.718178
+USA     0.000017  0.718178  1.000000
+M3: LICENSE TYPE
+--------------------------------------------------------------------------------
+License distribution: {'paid': np.int64(1152), 'free': np.int64(576)}
+
+Mann-Whitney U = 382221.000, p = 0.000000
+Effect size (rank-biserial r) = -0.152
+Significant: YES
+
+License performance:
+                  mean  median       std  count
+licence_type
+free          2.901780    4.00  2.042590    576
+paid          3.327235    4.25  1.953572   1152
+M4: MAP USAGE TYPE
+--------------------------------------------------------------------------------
+Category distribution: {'reading': np.int64(576), 'analysis': np.int64(576), 'interpretation': np.int64(576)}
+
+Kruskal-Wallis H = 15.19, p = 0.000503
+Effect size (ε²) = 0.008
+Significant: YES
+
+Map usage type performance:
+                    mean  median       std
+map_usage_type
+interpretation  3.693316    4.05  1.385971
+analysis        3.033247    4.10  2.012549
+reading         2.829688    4.50  2.356468
+
+Post-hoc comparisons:
+                analysis  interpretation   reading
+analysis        1.000000        0.004564  0.000716
+interpretation  0.004564        1.000000  0.477183
+reading         0.000716        0.477183  1.000000
+M5: TASK TYPE
+--------------------------------------------------------------------------------
+Task type distribution:
+task_type
+identify          192
+locate            192
+retrieve value    192
+compare           192
+cluster           192
+associate         192
+interpret         192
+cause/effect      192
+predict           192
+Name: count, dtype: int64
+
+Kruskal-Wallis H = 100.070, p = 0.000000
+Effect size (ε²) = 0.054
+Significant: YES
+
+Task type performance:
+                    mean  median       std  count
+task_type
+cause/effect    3.847656   4.050  1.088184    192
+predict         3.818750   4.250  1.402611    192
+identify        3.590104   4.900  2.144970    192
+interpret       3.413542   4.000  1.585231    192
+compare         3.313932   4.300  1.928545    192
+associate       3.244922   4.100  1.930893    192
+locate          2.658854   4.300  2.365729    192
+cluster         2.540885   3.825  2.092346    192
+retrieve value  2.240104   0.000  2.357833    192
+
+Post-hoc comparisons (showing p < 0.05):
+                   associate  cause/effect       cluster   compare      identify     interpret        locate       predict  retrieve value
+associate       1.000000e+00      0.625748  1.091421e-03  0.687850  6.337239e-07  6.539071e-01  9.286506e-01  8.196845e-02    5.845602e-02
+cause/effect    6.257481e-01      1.000000  1.134510e-04  0.896800  1.127766e-05  3.100749e-01  6.539071e-01  2.510285e-01    1.220257e-02
+cluster         1.091421e-03      0.000113  1.000000e+00  0.000186  2.124835e-17  6.642416e-03  8.387094e-04  2.999391e-07    2.302253e-01
+compare         6.878505e-01      0.896800  1.864893e-04  1.000000  5.771698e-06  3.880531e-01  7.363831e-01  2.011890e-01    1.864833e-02
+identify        6.337239e-07      0.000011  2.124835e-17  0.000006  1.000000e+00  4.324394e-08  8.627934e-07  1.926866e-03    1.255138e-12
+interpret       6.539071e-01      0.310075  6.642416e-03  0.388053  4.324394e-08  1.000000e+00  6.257481e-01  2.277559e-02    1.761248e-01
+locate          9.286506e-01      0.653907  8.387094e-04  0.736383  8.627934e-07  6.257481e-01  1.000000e+00  9.626615e-02    4.903040e-02
+predict         8.196845e-02      0.251028  2.999391e-07  0.201189  1.926866e-03  2.277559e-02  9.626615e-02  1.000000e+00    1.378714e-04
+retrieve value  5.845602e-02      0.012203  2.302253e-01  0.018648  1.255138e-12  1.761248e-01  4.903040e-02  1.378714e-04    1.000000e+00
+Significant post-hoc differences:
+  cluster vs identify — p = 0.000000 (< 0.001)
+  identify vs retrieve value — p = 0.000000 (< 0.001)
+  identify vs interpret — p = 0.000000 (< 0.001)
+  cluster vs predict — p = 0.000000 (< 0.001)
+  associate vs identify — p = 0.000001 (< 0.001)
+  identify vs locate — p = 0.000001 (< 0.001)
+  compare vs identify — p = 0.000006 (< 0.001)
+  cause/effect vs identify — p = 0.000011 (< 0.001)
+  cause/effect vs cluster — p = 0.000113 (< 0.001)
+  predict vs retrieve value — p = 0.000138 (< 0.001)
+  cluster vs compare — p = 0.000186 (< 0.001)
+  cluster vs locate — p = 0.000839 (< 0.001)
+  associate vs cluster — p = 0.001091 (< 0.01)
+  identify vs predict — p = 0.001927 (< 0.01)
+  cluster vs interpret — p = 0.006642 (< 0.01)
+  cause/effect vs retrieve value — p = 0.012203 (< 0.05)
+  compare vs retrieve value — p = 0.018648 (< 0.05)
+  interpret vs predict — p = 0.022776 (< 0.05)
+  locate vs retrieve value — p = 0.049030 (< 0.05)
+C1: MAP GRAPHICAL COMPLEXITY
+--------------------------------------------------------------------------------
+
+Overall dataset:
+
+graphical_complexity distribution: {'low': np.int64(864), 'high': np.int64(864)}
+
+Mann-Whitney U test between 'low' and 'high':
+U = 420971.000, p = 0.000003
+Effect size (rank-biserial r) = -0.128
+Significant: YES
+
+Descriptive statistics:
+                          mean  median       std  count
+graphical_complexity
+high                  2.930787     4.0  2.086586    864
+low                   3.440046     4.3  1.861930    864
+--------------------------------------------------------------------------------
+Reading subset:
+
+graphical_complexity distribution: {'low': np.int64(288), 'high': np.int64(288)}
+
+Mann-Whitney U test between 'low' and 'high':
+U = 48043.500, p = 0.000514
+Effect size (rank-biserial r) = -0.158
+Significant: YES
+
+Descriptive statistics:
+                          mean  median       std  count
+graphical_complexity
+high                  2.440625     3.9  2.405333    288
+low                   3.218750     4.5  2.244062    288
+--------------------------------------------------------------------------------
+Analysis subset:
+
+graphical_complexity distribution: {'low': np.int64(288), 'high': np.int64(288)}
+
+Mann-Whitney U test between 'low' and 'high':
+U = 48051.500, p = 0.000812
+Effect size (rank-biserial r) = -0.159
+Significant: YES
+
+Descriptive statistics:
+                          mean  median       std  count
+graphical_complexity
+high                  2.678472    3.85  2.133876    288
+low                   3.388021    4.10  1.819006    288
+--------------------------------------------------------------------------------
+Interpretation subset:
+
+graphical_complexity distribution: {'low': np.int64(288), 'high': np.int64(288)}
+
+Mann-Whitney U test between 'low' and 'high':
+U = 43094.500, p = 0.415771
+Effect size (rank-biserial r) = -0.039
+Significant: NO
+
+Descriptive statistics:
+                          mean  median       std  count
+graphical_complexity
+high                  3.673264   4.050  1.376456    288
+low                   3.713368   4.225  1.397529    288
+C2: SPATIAL AGGREGATION LEVEL
+--------------------------------------------------------------------------------
+
+Overall dataset:
+
+nuts_level distribution: {'country': np.int64(864), 'region': np.int64(864)}
+
+Mann-Whitney U test between 'country' and 'region':
+U = 392809.500, p = 0.055964
+Effect size (rank-biserial r) = -0.052
+Significant: NO
+
+Descriptive statistics:
+                mean  median       std  count
+nuts_level
+country     3.276736    4.10  1.954428    864
+region      3.094097    4.05  2.028290    864
+--------------------------------------------------------------------------------
+Reading subset:
+
+nuts_level distribution: {'country': np.int64(288), 'region': np.int64(288)}
+
+Mann-Whitney U test between 'country' and 'region':
+U = 46759.000, p = 0.005201
+Effect size (rank-biserial r) = -0.127
+Significant: YES
+
+Descriptive statistics:
+                mean  median       std  count
+nuts_level
+country     3.045833     4.5  2.326289    288
+region      2.613542     4.3  2.370622    288
+--------------------------------------------------------------------------------
+Analysis subset:
+
+nuts_level distribution: {'country': np.int64(288), 'region': np.int64(288)}
+
+Mann-Whitney U test between 'country' and 'region':
+U = 45577.500, p = 0.036664
+Effect size (rank-biserial r) = -0.099
+Significant: YES
+
+Descriptive statistics:
+                mean  median       std  count
+nuts_level
+country     3.254861    4.10  1.896558    288
+region      2.811632    4.05  2.102218    288
+--------------------------------------------------------------------------------
+Interpretation subset:
+
+nuts_level distribution: {'country': np.int64(288), 'region': np.int64(288)}
+
+Mann-Whitney U test between 'country' and 'region':
+U = 37466.000, p = 0.044472
+Effect size (rank-biserial r) = 0.097
+Significant: YES
+
+Descriptive statistics:
+                mean  median       std  count
+nuts_level
+country     3.529514    4.05  1.536013    288
+region      3.857118    4.20  1.198057    288
+C3: MAP SOURCE
+--------------------------------------------------------------------------------
+
+Overall dataset:
+
+map_source distribution: {'atlas': np.int64(864), 'statistical_office': np.int64(864)}
+
+Mann-Whitney U test between 'atlas' and 'statistical_office':
+U = 365969.500, p = 0.477000
+Effect size (rank-biserial r) = 0.020
+Significant: NO
+
+Descriptive statistics:
+                        mean  median       std  count
+map_source
+atlas               3.105208     4.1  2.053629    864
+statistical_office  3.265625     4.1  1.928775    864
+--------------------------------------------------------------------------------
+Reading subset:
+
+map_source distribution: {'atlas': np.int64(288), 'statistical_office': np.int64(288)}
+
+Mann-Whitney U test between 'atlas' and 'statistical_office':
+U = 38704.500, p = 0.143587
+Effect size (rank-biserial r) = 0.067
+Significant: NO
+
+Descriptive statistics:
+                        mean  median       std  count
+map_source
+atlas               2.668056     4.4  2.386275    288
+statistical_office  2.991319     4.5  2.319158    288
+--------------------------------------------------------------------------------
+Analysis subset:
+
+map_source distribution: {'atlas': np.int64(288), 'statistical_office': np.int64(288)}
+
+Mann-Whitney U test between 'atlas' and 'statistical_office':
+U = 43039.500, p = 0.425092
+Effect size (rank-biserial r) = -0.038
+Significant: NO
+
+Descriptive statistics:
+                        mean  median       std  count
+map_source
+atlas               3.037674    4.10  2.039373    288
+statistical_office  3.028819    4.05  1.988904    288
+--------------------------------------------------------------------------------
+Interpretation subset:
+
+map_source distribution: {'atlas': np.int64(288), 'statistical_office': np.int64(288)}
+
+Mann-Whitney U test between 'atlas' and 'statistical_office':
+U = 41781.500, p = 0.876798
+Effect size (rank-biserial r) = -0.007
+Significant: NO
+
+Descriptive statistics:
+                        mean  median       std  count
+map_source
+atlas               3.609896   4.075  1.541515    288
+statistical_office  3.776736   4.050  1.207597    288
+C4: VISUALIZATION TECHNIQUE
+--------------------------------------------------------------------------------
+
+Overall dataset:
+Available observations: 864
+viz_technique distribution:
+viz_technique
+choropleth             324
+point-based symbols    324
+cartogram              216
+Name: count, dtype: int64
+
+Kruskal–Wallis H = 11.159, p = 0.003775
+Effect size (ε²) = 0.011
+Significant: YES
+
+Post-hoc Dunn test (adjusted p-values < 0.05):
+  cartogram vs choropleth — p = 0.002525
+
+Descriptive statistics:
+                         mean  median       std  count
+viz_technique
+cartogram            3.789352    4.35  1.634491    216
+point-based symbols  3.439815    4.30  1.877706    324
+choropleth           3.207407    4.10  1.955173    324
+--------------------------------------------------------------------------------
+Reading subset:
+Available observations: 288
+viz_technique distribution:
+viz_technique
+choropleth             108
+point-based symbols    108
+cartogram               72
+Name: count, dtype: int64
+
+Kruskal–Wallis H = 2.650, p = 0.265835
+Effect size (ε²) = 0.002
+Significant: NO
+
+Descriptive statistics:
+                         mean  median       std  count
+viz_technique
+cartogram            3.450000     4.6  2.172815     72
+point-based symbols  3.159259     4.5  2.218320    108
+choropleth           3.124074     4.6  2.324870    108
+--------------------------------------------------------------------------------
+Analysis subset:
+Available observations: 288
+viz_technique distribution:
+viz_technique
+choropleth             108
+point-based symbols    108
+cartogram               72
+Name: count, dtype: int64
+
+Kruskal–Wallis H = 19.059, p = 0.000073
+Effect size (ε²) = 0.060
+Significant: YES
+
+Post-hoc Dunn test (adjusted p-values < 0.05):
+  cartogram vs choropleth — p = 0.000146
+  cartogram vs point-based symbols — p = 0.000303
+
+Descriptive statistics:
+                         mean  median       std  count
+viz_technique
+cartogram            4.223611     4.3  0.981626     72
+choropleth           3.140741     4.1  1.905478    108
+point-based symbols  3.078241     4.1  1.994072    108
+--------------------------------------------------------------------------------
+Interpreting subset:
+Available observations: 288
+viz_technique distribution:
+viz_technique
+choropleth             108
+point-based symbols    108
+cartogram               72
+Name: count, dtype: int64
+
+Kruskal–Wallis H = 15.568, p = 0.000416
+Effect size (ε²) = 0.048
+Significant: YES
+
+Post-hoc Dunn test (adjusted p-values < 0.05):
+  choropleth vs point-based symbols — p = 0.000240
+
+Descriptive statistics:
+                         mean  median       std  count
+viz_technique
+point-based symbols  4.081944   4.300  1.057538    108
+cartogram            3.694444   4.225  1.445015     72
+choropleth           3.357407   3.775  1.571457    108
+C5: SYMBOL SCALING
+--------------------------------------------------------------------------------
+
+Overall dataset:
+Available observations: 1188
+symbol_scaling distribution:
+symbol_scaling
+proportional symbols    648
+graduated symbols       540
+Name: count, dtype: int64
+
+Mann–Whitney U = 164155.500, p = 0.062328
+Effect size (rank-biserial r) = 0.062
+Significant: NO
+
+Descriptive statistics:
+                          mean  median       std  count
+symbol_scaling
+proportional symbols  3.208873    4.10  1.965625    648
+graduated symbols     2.902500    4.05  2.123198    540
+--------------------------------------------------------------------------------
+Reading subset:
+Available observations: 396
+symbol_scaling distribution:
+symbol_scaling
+proportional symbols    216
+graduated symbols       180
+Name: count, dtype: int64
+
+Mann–Whitney U = 17387.000, p = 0.054807
+Effect size (rank-biserial r) = 0.106
+Significant: NO
+
+Descriptive statistics:
+                          mean  median       std  count
+symbol_scaling
+proportional symbols  2.857407     4.5  2.344323    216
+graduated symbols     2.371667     1.7  2.390397    180
+--------------------------------------------------------------------------------
+Analysis subset:
+Available observations: 396
+symbol_scaling distribution:
+symbol_scaling
+proportional symbols    216
+graduated symbols       180
+Name: count, dtype: int64
+
+Mann–Whitney U = 18590.000, p = 0.442566
+Effect size (rank-biserial r) = 0.044
+Significant: NO
+
+Descriptive statistics:
+                          mean  median       std  count
+symbol_scaling
+proportional symbols  2.885185   3.975  2.064825    216
+graduated symbols     2.670278   3.900  2.145107    180
+--------------------------------------------------------------------------------
+Interpreting subset:
+Available observations: 396
+symbol_scaling distribution:
+symbol_scaling
+proportional symbols    216
+graduated symbols       180
+Name: count, dtype: int64
+
+Mann–Whitney U = 19521.500, p = 0.942935
+Effect size (rank-biserial r) = -0.004
+Significant: NO
+
+Descriptive statistics:
+                          mean  median       std  count
+symbol_scaling
+proportional symbols  3.884028    4.05  1.086422    216
+graduated symbols     3.665556    4.05  1.528302    180
+C6: DIAGRAM STRUCTURE
+--------------------------------------------------------------------------------
+
+Overall dataset:
+Available observations: 1188
+diagram_structure distribution:
+diagram_structure
+uniform       648
+structural    540
+Name: count, dtype: int64
+
+Mann–Whitney U = 181197.000, p = 0.281950
+Effect size (rank-biserial r) = -0.036
+Significant: NO
+
+Descriptive statistics:
+                       mean  median       std  count
+diagram_structure
+structural         3.109630   4.075  2.059428    540
+uniform            3.036265   4.025  2.031297    648
+--------------------------------------------------------------------------------
+Reading subset:
+Available observations: 396
+diagram_structure distribution:
+diagram_structure
+uniform       216
+structural    180
+Name: count, dtype: int64
+
+Mann–Whitney U = 18489.500, p = 0.374078
+Effect size (rank-biserial r) = 0.049
+Significant: NO
+
+Descriptive statistics:
+                       mean  median       std  count
+diagram_structure
+uniform            2.781944    4.45  2.348616    216
+structural         2.462222    3.90  2.400655    180
+--------------------------------------------------------------------------------
+Analysis subset:
+Available observations: 396
+diagram_structure distribution:
+diagram_structure
+uniform       216
+structural    180
+Name: count, dtype: int64
+
+Mann–Whitney U = 21482.500, p = 0.064925
+Effect size (rank-biserial r) = -0.105
+Significant: NO
+
+Descriptive statistics:
+                       mean  median       std  count
+diagram_structure
+structural         3.009167   4.050  2.048419    180
+uniform            2.602778   3.825  2.132310    216
+--------------------------------------------------------------------------------
+Interpreting subset:
+Available observations: 396
+diagram_structure distribution:
+diagram_structure
+uniform       216
+structural    180
+Name: count, dtype: int64
+
+Mann–Whitney U = 21711.000, p = 0.044803
+Effect size (rank-biserial r) = -0.117
+Significant: YES
+
+Descriptive statistics:
+                       mean  median       std  count
+diagram_structure
+structural         3.857500   4.125  1.348292    180
+uniform            3.724074   4.000  1.274791    216
+I1: MODEL × MAP USAGE TYPE INTERACTION
+--------------------------------------------------------------------------------
+Scheirer-Ray-Hare test:
+Model effect: H = 90.453, p = 0.000000
+Usage type effect: H = 15.191, p = 0.000503
+Interaction: H = 1621.356, p = 0.000000
+Permutation test
+Interaction test: stat = 127.843, p = 0.000000
+Ranking consistency test
+
+Ranking consistency:
+        category1       category2  kendall_tau   p_value agreement
+0        analysis  interpretation     0.242424  0.310810       low
+1        analysis         reading     0.484848  0.031050  moderate
+2  interpretation         reading     0.090909  0.737306       low
+
+Rankings per category:
+map_usage_type        analysis  interpretation  reading
+model_name
+Claude 3.5 Sonnet v2       2.0             7.0      3.0
+Claude 3.7 Sonnet          1.0             1.0      1.0
+DeepSeek-R1               11.0            11.0      8.0
+GPT o3                     3.0             4.0      5.0
+GPT-4o                     7.0             3.0     11.0
+Gemini 1.5 Pro             6.0             8.0      6.0
+Gemma 3                    5.0             6.0     12.0
+Grok-3                     4.0            10.0      2.0
+MiniMax-01                12.0             2.0     10.0
+Mistral Large              8.0             5.0      4.0
+Qwen2.5-Max                9.0             9.0      7.0
+Sonar                     10.0            12.0      9.0
+Simple effects analysis:
+
+analysis: H = 46.375, p = 0.000003 *
+  Top 3 models: Claude 3.7 Sonnet, Claude 3.5 Sonnet v2, GPT o3
+
+interpretation: H = 44.476, p = 0.000006 *
+  Top 3 models: Claude 3.7 Sonnet, MiniMax-01, GPT-4o
+
+reading: H = 36.992, p = 0.000116 *
+  Top 3 models: Claude 3.7 Sonnet, Grok-3, Claude 3.5 Sonnet v2
+
+
+FDR-corrected results:
+analysis: p_corrected = 0.000008 *
+interpretation: p_corrected = 0.000009 *
+reading: p_corrected = 0.000116 *
+
+
+Mean scores (Model × Map Usage Type):
+map_usage_type        analysis  interpretation  reading
+model_name
+Claude 3.5 Sonnet v2     3.635           3.733    3.363
+Claude 3.7 Sonnet        3.893           4.409    3.504
+DeepSeek-R1              2.504           3.368    2.533
+GPT o3                   3.509           3.858    3.171
+GPT-4o                   2.941           3.902    2.092
+Gemini 1.5 Pro           3.070           3.689    3.104
+Gemma 3                  3.121           3.754    2.054
+Grok-3                   3.227           3.402    3.423
+MiniMax-01               2.444           3.955    2.227
+Mistral Large            2.903           3.841    3.242
+Qwen2.5-Max              2.616           3.461    2.783
+Sonar                    2.535           2.947    2.460
+I2: GRAPHICAL COMPLEXITY × MAP USAGE TYPE
+--------------------------------------------------------------------------------
+Scheirer-Ray-Hare Test Results:
+Complexity effect: H = 44.492, p = 0.000000
+Usage type effect: H = 23.313, p = 0.000009
+Interaction: H = 10.667, p = 0.004827
+
+Interaction significant: YES
+
+================================================================================
+Simple effects analysis (post-hoc):
+
+analysis: U = 34892.500, p = 0.000812, r = 0.159 *
+
+interpretation: U = 39849.500, p = 0.415771, r = 0.039
+
+reading: U = 34900.500, p = 0.000514, r = 0.158 *
+
+
+FDR-corrected results:
+analysis: p_corrected = 0.001218 *
+interpretation: p_corrected = 0.415771
+reading: p_corrected = 0.001218 *
+
+
+Mean scores (Complexity × Category):
+map_usage_type        analysis  interpretation  reading
+graphical_complexity
+high                     2.678           3.673    2.441
+low                      3.388           3.713    3.219
+
+
+Effect of low complexity (difference from high):
+analysis: +0.710
+interpretation: +0.040
+reading: +0.778
+I3: MODEL × GRAPHICAL COMPLEXITY INTERACTION
+--------------------------------------------------------------------------------
+Model effect: H = 90.453, p = 0.000000
+Graphical complexity effect: H = 21.744, p = 0.000003
+Interaction: H = 1614.803, p = 0.000000
+Simple effects analysis:
+
+high: H = 34.727, p = 0.000275 *
+  Top 3 models: Claude 3.7 Sonnet, Claude 3.5 Sonnet v2, GPT o3
+
+low: H = 72.624, p = 0.000000 *
+  Top 3 models: Claude 3.7 Sonnet, Mistral Large, GPT o3
+
+
+FDR-corrected results:
+high: p_corrected = 0.000275 *
+low: p_corrected = 0.000000 *
+
+
+Mean scores (Model × Graphical Complexity):
+graphical_complexity   high    low
+model_name
+Claude 3.5 Sonnet v2  3.425  3.729
+Claude 3.7 Sonnet     3.580  4.291
+DeepSeek-R1           2.419  3.184
+GPT o3                3.241  3.785
+GPT-4o                2.815  3.142
+Gemini 1.5 Pro        3.134  3.442
+Gemma 3               2.910  3.042
+Grok-3                2.961  3.740
+MiniMax-01            2.473  3.278
+Mistral Large         2.866  3.791
+Qwen2.5-Max           2.700  3.207
+Sonar                 2.645  2.650
+I4: MODEL × SPATIAL AGGREGATION LEVEL INTERACTION
+--------------------------------------------------------------------------------
+Model effect: H = 90.453, p = 0.000000
+NUTS level effect: H = 3.653, p = 0.055958
+Interaction: H = 1632.894, p = 0.000000
+Simple effects analysis:
+
+country: H = 53.150, p = 0.000000 *
+  Top 3 models: Claude 3.7 Sonnet, Claude 3.5 Sonnet v2, GPT o3
+
+region: H = 42.932, p = 0.000011 *
+  Top 3 models: Claude 3.7 Sonnet, GPT o3, Claude 3.5 Sonnet v2
+
+
+FDR-corrected results:
+country: p_corrected = 0.000000 *
+region: p_corrected = 0.000011 *
+
+
+Mean scores (Model × NUTS):
+nuts_level            country  region
+model_name
+Claude 3.5 Sonnet v2    3.690   3.464
+Claude 3.7 Sonnet       4.097   3.774
+DeepSeek-R1             2.838   2.765
+GPT o3                  3.535   3.491
+GPT-4o                  3.057   2.899
+Gemini 1.5 Pro          3.533   3.042
+Gemma 3                 2.994   2.959
+Grok-3                  3.264   3.438
+MiniMax-01              2.894   2.857
+Mistral Large           3.416   3.240
+Qwen2.5-Max             3.221   2.686
+Sonar                   2.781   2.514
+P1: DIFFICULTY PROFILES OF MODELS
+--------------------------------------------------------------------------------
+Difficulty combinations:
+Total combinations: 21
+
+Distribution of observations across combinations:
+count     21.000000
+mean      82.285714
+std       38.001504
+min       36.000000
+25%       36.000000
+50%       72.000000
+75%      108.000000
+max      144.000000
+Name: count, dtype: float64
+
+After filtering (n≥10): 21 combinations, 1728 observations
+Valid combinations:
+['high_country_atlas_analysis', 'high_country_atlas_interpretation', 'high_country_atlas_reading', 'high_country_statistical_office_analysis', 'high_country_statistical_office_interpretation', 'high_country_statistical_office_reading', 'high_region_atlas_analysis', 'high_region_atlas_interpretation', 'high_region_atlas_reading', 'low_country_atlas_analysis', 'low_country_atlas_interpretation', 'low_country_atlas_reading', 'low_country_statistical_office_analysis', 'low_country_statistical_office_interpretation', 'low_country_statistical_office_reading', 'low_region_atlas_analysis', 'low_region_atlas_interpretation', 'low_region_atlas_reading', 'low_region_statistical_office_analysis', 'low_region_statistical_office_interpretation', 'low_region_statistical_office_reading']
+
+Number of observations for each valid combination:
+  low_region_statistical_office_analysis: 144
+  low_region_statistical_office_reading: 144
+  low_region_statistical_office_interpretation: 144
+  high_region_atlas_analysis: 108
+  high_region_atlas_reading: 108
+  high_country_statistical_office_interpretation: 108
+  high_country_statistical_office_analysis: 108
+  high_country_statistical_office_reading: 108
+  high_region_atlas_interpretation: 108
+  low_country_atlas_analysis: 72
+  high_country_atlas_reading: 72
+  high_country_atlas_analysis: 72
+  high_country_atlas_interpretation: 72
+  low_country_atlas_interpretation: 72
+  low_country_atlas_reading: 72
+  low_region_atlas_interpretation: 36
+  low_region_atlas_analysis: 36
+  low_region_atlas_reading: 36
+  low_country_statistical_office_interpretation: 36
+  low_country_statistical_office_analysis: 36
+  low_country_statistical_office_reading: 36
+
+
+Profile Analysis - Mean Scores per Model × Difficulty Combination:
+difficulty_combo      high_country_atlas_analysis  high_country_atlas_interpretation  ...  low_region_statistical_office_interpretation  low_region_statistical_office_reading
+model_name                                                                            ...
+Claude 3.5 Sonnet v2                        3.833                              2.758  ...                                         3.929                                  3.217
+Claude 3.7 Sonnet                           4.617                              4.392  ...                                         4.675                                  3.833
+DeepSeek-R1                                 2.150                              2.808  ...                                         3.792                                  3.117
+GPT o3                                      3.717                              3.083  ...                                         4.100                                  3.483
+GPT-4o                                      3.750                              3.667  ...                                         4.262                                  2.358
+Gemini 1.5 Pro                              4.500                              3.475  ...                                         3.679                                  3.183
+Gemma 3                                     3.517                              3.750  ...                                         4.242                                  2.250
+Grok-3                                      2.892                              3.408  ...                                         4.175                                  4.092
+MiniMax-01                                  1.383                              3.817  ...                                         3.950                                  2.692
+Mistral Large                               2.317                              3.692  ...                                         4.200                                  4.025
+Qwen2.5-Max                                 2.850                              3.033  ...                                         3.883                                  2.775
+Sonar                                       2.050                              2.842  ...                                         2.596                                  2.600
+
+[12 rows x 21 columns]
+
+
+Models with perfect mean score (5.00) by difficulty combination:
+
+low_country_statistical_office_reading:
+  - Claude 3.5 Sonnet v2
+  - Claude 3.7 Sonnet
+  - Grok-3
+  - Qwen2.5-Max
+Shape: (12, 22)
+Preview:
+difficulty_combo            model_name  high_country_atlas_analysis  ...  low_region_statistical_office_interpretation  low_region_statistical_office_reading
+0                 Claude 3.5 Sonnet v2                     3.833333  ...                                      3.929167                               3.216667
+1                    Claude 3.7 Sonnet                     4.616667  ...                                      4.675000                               3.833333
+2                          DeepSeek-R1                     2.150000  ...                                      3.791667                               3.116667
+3                               GPT o3                     3.716667  ...                                      4.100000                               3.483333
+4                               GPT-4o                     3.750000  ...                                      4.262500                               2.358333
+
+[5 rows x 22 columns]
+
+
+Best models per difficulty combination:
+
+high_country_atlas_analysis:
+  1st: Claude 3.7 Sonnet (M=4.617)
+  2nd: Gemini 1.5 Pro (M=4.500)
+
+high_country_atlas_interpretation:
+  1st: Claude 3.7 Sonnet (M=4.392)
+  2nd: MiniMax-01 (M=3.817)
+
+high_country_atlas_reading:
+  1st: Claude 3.5 Sonnet v2 (M=4.050)
+  2nd: Mistral Large (M=3.850)
+
+high_country_statistical_office_analysis:
+  1st: Claude 3.7 Sonnet (M=3.894)
+  2nd: Claude 3.5 Sonnet v2 (M=3.494)
+
+high_country_statistical_office_interpretation:
+  1st: GPT o3 (M=4.367)
+  2nd: GPT-4o (M=4.367)
+
+high_country_statistical_office_reading:
+  1st: Claude 3.7 Sonnet (M=3.256)
+  2nd: Grok-3 (M=3.233)
+
+high_region_atlas_analysis:
+  1st: Claude 3.5 Sonnet v2 (M=3.350)
+  2nd: GPT o3 (M=2.997)
+
+high_region_atlas_interpretation:
+  1st: Claude 3.7 Sonnet (M=4.456)
+  2nd: MiniMax-01 (M=4.422)
+
+high_region_atlas_reading:
+  1st: GPT o3 (M=3.333)
+  2nd: Grok-3 (M=2.544)
+
+low_country_atlas_analysis:
+  1st: Gemini 1.5 Pro (M=4.308)
+  2nd: GPT o3 (M=4.267)
+
+low_country_atlas_interpretation:
+  1st: Claude 3.7 Sonnet (M=4.658)
+  2nd: Mistral Large (M=4.342)
+
+low_country_atlas_reading:
+  1st: Claude 3.7 Sonnet (M=4.983)
+  2nd: Gemini 1.5 Pro (M=4.967)
+
+low_country_statistical_office_analysis:
+  1st: Gemma 3 (M=4.567)
+  2nd: Claude 3.5 Sonnet v2 (M=4.467)
+
+low_country_statistical_office_interpretation:
+  1st: Grok-3 (M=4.083)
+  2nd: Gemini 1.5 Pro (M=3.700)
+
+low_country_statistical_office_reading:
+  1st: Claude 3.5 Sonnet v2 (M=5.000)
+  2nd: Claude 3.7 Sonnet (M=5.000)
+
+low_region_atlas_analysis:
+  1st: Claude 3.7 Sonnet (M=4.933)
+  2nd: GPT-4o (M=4.867)
+
+low_region_atlas_interpretation:
+  1st: Claude 3.5 Sonnet v2 (M=4.517)
+  2nd: Claude 3.7 Sonnet (M=4.500)
+
+low_region_atlas_reading:
+  1st: Claude 3.5 Sonnet v2 (M=3.333)
+  2nd: Qwen2.5-Max (M=3.333)
+
+low_region_statistical_office_analysis:
+  1st: Claude 3.7 Sonnet (M=4.158)
+  2nd: GPT o3 (M=3.654)
+
+low_region_statistical_office_interpretation:
+  1st: Claude 3.7 Sonnet (M=4.675)
+  2nd: GPT-4o (M=4.263)
+
+low_region_statistical_office_reading:
+  1st: Grok-3 (M=4.092)
+  2nd: Mistral Large (M=4.025)
+
+
+Model specialization (times ranked 1st):
+  Claude 3.7 Sonnet: 10/21 (47.6%)
+  Claude 3.5 Sonnet v2: 5/21 (23.8%)
+  Grok-3: 2/21 (9.5%)
+  GPT o3: 2/21 (9.5%)
+  Gemini 1.5 Pro: 1/21 (4.8%)
+  Gemma 3: 1/21 (4.8%)
+
+
+Cluster Analysis:
+Silhouette scores for different k: {2: 0.1617581229454909, 3: 0.1462751206484514, 4: 0.14309861286186268, 5: 0.1609622264512788}
+Optimal number of clusters: 2
+
+Model cluster assignments (k=2):
+  Cluster 0: DeepSeek-R1, GPT-4o, Gemma 3, MiniMax-01, Qwen2.5-Max, Sonar
+  Cluster 1: Claude 3.5 Sonnet v2, Claude 3.7 Sonnet, GPT o3, Gemini 1.5 Pro, Grok-3, Mistral Large
+
+Cluster characteristics:
+
+  Cluster 0:
+    Overall: M=2.872, SD=2.040
+    Low graphically complex maps: M=3.084
+    High graphically complex maps: M=2.660
+
+  Cluster 1:
+    Overall: M=3.499, SD=1.895
+    Low graphically complex maps: M=3.796
+    High graphically complex maps: M=3.201
+
+
+Statistical tests per difficulty combination:
+
+Combinations significant before FDR (trends):
+  low_region_statistical_office_analysis: H=24.23, p=0.0118
+  low_region_statistical_office_interpretation: H=24.72, p=0.0100
+  low_country_atlas_reading: H=20.85, p=0.0350
+
+Total combinations tested: 21
+Significant before correction: 3
+Significant after FDR correction: 0
+
+Significant differences after FDR correction:
+  None - no significant differences after correction
+
+1. EASIEST TASKS VERIFICATION
+--------------------------------------------------------------------------------
+
+Mean scores by difficulty combination (top 10):
+                                                 mean    std  count
+difficulty_combo
+low_region_atlas_analysis                       4.533  0.414     36
+low_region_atlas_interpretation                 4.132  0.485     36
+low_region_statistical_office_interpretation    3.957  1.100    144
+low_country_statistical_office_analysis         3.956  1.291     36
+high_country_statistical_office_interpretation  3.900  0.867    108
+high_region_atlas_interpretation                3.632  1.437    108
+low_country_atlas_reading                       3.611  2.117     72
+low_country_atlas_analysis                      3.540  1.644     72
+low_country_atlas_interpretation                3.531  1.712     72
+high_country_atlas_interpretation               3.394  1.804     72
+
+Combinations with mean scores > 4.00:
+                                  mean    std  count
+difficulty_combo
+low_region_atlas_analysis        4.533  0.414     36
+low_region_atlas_interpretation  4.132  0.485     36
+
+Detailed look at 'reading simple country-level maps':
+
+  low_country_atlas_reading:
+    Overall mean: 3.611
+    Models with scores > 4.00: 5/12 (41.7%)
+    Score range: 1.583 - 4.983
+
+  low_country_statistical_office_reading:
+    Overall mean: 3.344
+    Models with scores > 4.00: 4/12 (33.3%)
+    Score range: 1.667 - 5.000
+
+
+2. MOST CHALLENGING TASK VERIFICATION
+--------------------------------------------------------------------------------
+
+Combinations with lowest mean scores (bottom 10):
+                                                mean    std  count
+difficulty_combo
+low_region_statistical_office_reading          3.135  2.242    144
+high_country_atlas_analysis                    3.131  2.054     72
+high_country_statistical_office_analysis       2.913  2.040    108
+low_region_statistical_office_analysis         2.884  2.042    144
+high_country_atlas_reading                     2.878  2.330     72
+low_country_statistical_office_interpretation  2.685  1.818     36
+high_country_statistical_office_reading        2.681  2.419    108
+low_region_atlas_reading                       2.642  2.406     36
+high_region_atlas_analysis                     2.142  2.184    108
+high_region_atlas_reading                      1.908  2.365    108
+
+high_region_atlas_analysis detailed statistics:
+  Overall mean: 2.142
+  SD: 2.184
+  N: 108
+  Range: 0.000 - 5.000
+
+
+3. GPT O3 PERFORMANCE VERIFICATION
+--------------------------------------------------------------------------------
+
+Scores for high_country_statistical_office_interpretation:
+model_name
+GPT o3                  4.367
+GPT-4o                  4.367
+Claude 3.7 Sonnet       4.217
+Claude 3.5 Sonnet v2    3.989
+Gemini 1.5 Pro          3.967
+Mistral Large           3.922
+MiniMax-01              3.867
+DeepSeek-R1             3.856
+Qwen2.5-Max             3.800
+Gemma 3                 3.761
+Sonar                   3.428
+Grok-3                  3.267
+Name: score, dtype: float64
+
+Top performers (M=4.367):
+  - GPT o3
+  - GPT-4o
+
+TIED: 2 models share the top score
+
+
+4. REGIONAL VS COUNTRY PERFORMANCE
+--------------------------------------------------------------------------------
+
+Overall performance by spatial aggregation:
+  Regional maps: M=3.094, SD=2.028
+  Country maps: M=3.277, SD=1.954
+  Difference: 0.183 (country performs better: True)
+
+Regional vs Country by graphical complexity:
+  low: Regional=3.414, Country=3.483, Diff=0.069
+  high: Regional=2.561, Country=3.153, Diff=0.592
+
+Regional vs Country by map source:
+  atlas: Regional=2.863, Country=3.348, Diff=0.485
+  statistical_office: Regional=3.325, Country=3.206, Diff=-0.119
+
+Regional vs Country by task type:
+  reading: Regional=2.614, Country=3.046, Diff=0.432
+  analysis: Regional=2.812, Country=3.255, Diff=0.443
+  interpretation: Regional=3.857, Country=3.530, Diff=-0.328
+
+
+5. RANGE ANALYSIS ACROSS COMBINATIONS
+--------------------------------------------------------------------------------
+
+Combinations with widest performance spreads (top 10):
+                                               range    min    max    std
+low_country_atlas_reading                      3.400  1.583  4.983  1.039
+low_country_statistical_office_reading         3.333  1.667  5.000  1.358
+high_country_atlas_analysis                    3.233  1.383  4.617  1.020
+low_region_statistical_office_analysis         2.479  1.679  4.158  0.731
+high_country_atlas_reading                     2.417  1.633  4.050  0.713
+low_country_statistical_office_interpretation  2.417  1.667  4.083  0.812
+high_region_atlas_analysis                     2.397  0.953  3.350  0.686
+low_country_atlas_interpretation               2.292  2.367  4.658  0.763
+high_region_atlas_reading                      2.244  1.089  3.333  0.623
+low_region_statistical_office_interpretation   2.079  2.596  4.675  0.503
+
+Combinations with narrowest performance spreads (bottom 10):
+                                                range    min    max    std
+low_region_statistical_office_reading           1.842  2.250  4.092  0.627
+low_country_statistical_office_analysis         1.767  2.800  4.567  0.619
+high_country_statistical_office_reading         1.711  1.544  3.256  0.536
+high_country_atlas_interpretation               1.633  2.758  4.392  0.500
+high_region_atlas_interpretation                1.628  2.828  4.456  0.573
+high_country_statistical_office_analysis        1.586  2.308  3.894  0.463
+low_country_atlas_analysis                      1.567  2.742  4.308  0.518
+high_country_statistical_office_interpretation  1.100  3.267  4.367  0.331
+low_region_atlas_interpretation                 0.950  3.567  4.517  0.286
+low_region_atlas_analysis                       0.700  4.233  4.933  0.252
+
+Country-level statistical_office reading tasks:
+  high_country_statistical_office_reading:
+    Range: 1.711 (min=1.544, max=3.256)
+  low_country_statistical_office_reading:
+    Range: 3.333 (min=1.667, max=5.000)
+
+
+6. DISTRIBUTION COMPRESSION BY TASK TYPE
+--------------------------------------------------------------------------------
+
+Variance and range by task type and graphical complexity:
+
+READING:
+  low: Range=2.246, SD=0.680, Mean=3.219
+  high: Range=1.492, SD=0.497, Mean=2.441
+
+ANALYSIS:
+  low: Range=1.475, SD=0.474, Mean=3.388
+  high: Range=1.775, SD=0.539, Mean=2.678
+
+INTERPRETATION:
+  low: Range=1.827, SD=0.434, Mean=3.713
+  high: Range=1.181, SD=0.376, Mean=3.673
+
+Overall distribution characteristics by task type:
+             task   mean    std  range     cv
+2  interpretation  3.693  0.367  1.462  0.099
+0         reading  2.830  0.538  1.450  0.190
+1        analysis  3.033  0.472  1.449  0.156
+
+
+7. CLUSTER PERFORMANCE ON GRAPHICAL COMPLEXITY
+--------------------------------------------------------------------------------
+
+Recalculating cluster performance by graphical complexity:
+
+Cluster 0 (6 models):
+  Models: DeepSeek-R1, GPT-4o, Gemma 3, MiniMax-01, Qwen2.5-Max, Sonar
+  low: M=3.084, SD=1.964, N=432
+  high: M=2.660, SD=2.094, N=432
+
+Cluster 1 (6 models):
+  Models: Claude 3.5 Sonnet v2, Claude 3.7 Sonnet, GPT o3, Gemini 1.5 Pro, Grok-3, Mistral Large
+  low: M=3.796, SD=1.682, N=432
+  high: M=3.201, SD=2.046, N=432

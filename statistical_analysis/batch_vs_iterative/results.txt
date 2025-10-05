@@ -1,0 +1,286 @@
+1. BASIC INFORMATION
+--------------------------------------------------------------------------------
+Total observations: 1152
+Unique questions: 144
+Models: GPT-4o, Gemini 1.5 Pro, Claude 3.7 Sonnet, DeepSeek-R1
+Test modes: batch, iterative
+
+Observations per mode:
+test_mode
+batch        576
+iterative    576
+Name: count, dtype: int64
+2. ZERO VALUES ANALYSIS
+--------------------------------------------------------------------------------
+Zero values: 327 (28.39%)
+
+Note: Zeros represent failed responses, not missing data.
+All analyses include zeros as legitimate failure outcomes.
+3. DESCRIPTIVE STATISTICS
+--------------------------------------------------------------------------------
+
+BATCH:
+  M = 3.251, SD = 1.983
+  Mdn = 4.200
+  Range: [0.0, 5.0]
+
+ITERATIVE:
+  M = 3.031, SD = 2.091
+  Mdn = 4.200
+  Range: [0.0, 5.0]
+4. DISTRIBUTION TESTS
+--------------------------------------------------------------------------------
+batch: W = 0.7309, p < .001 (non-normal)
+iterative: W = 0.7254, p < .001 (non-normal)
+Conclusion: Non-parametric tests required (Wilcoxon signed-rank)
+
+Paired observations: 576
+Difference M = 0.2193, SD = 2.1106
+1. WILCOXON SIGNED-RANK TESTS
+--------------------------------------------------------------------------------
+
+1.1 Overall Effect
+  W = 41903.5, p_uncorrected = 0.042816
+  p_corrected (FDR) = 0.071359
+  Significant after correction: NO
+
+1.2 Model-Specific Effects
+
+Claude 3.7 Sonnet:
+  N = 144, Mean diff = 0.377
+  p_uncorrected = 0.007284
+  p_corrected (FDR) = 0.036421
+  Significant: YES
+
+DeepSeek-R1:
+  N = 144, Mean diff = 0.067
+  p_uncorrected = 0.980570
+  p_corrected (FDR) = 0.980570
+  Significant: NO
+
+GPT-4o:
+  N = 144, Mean diff = 0.307
+  p_uncorrected = 0.034254
+  p_corrected (FDR) = 0.071359
+  Significant: NO
+
+Gemini 1.5 Pro:
+  N = 144, Mean diff = 0.127
+  p_uncorrected = 0.812571
+  p_corrected (FDR) = 0.980570
+  Significant: NO
+
+2. EFFECT SIZES WITH CONFIDENCE INTERVALS
+--------------------------------------------------------------------------------
+
+2.1 Overall Effect Size
+  Rank-biserial r = 0.161, 95% CI [0.068, 0.254]
+  Interpretation: small effect
+
+2.2 Model-Specific Effect Sizes
+
+Claude 3.7 Sonnet:
+  r = 0.385, 95% CI [0.217, 0.554]
+
+DeepSeek-R1:
+  r = 0.044, 95% CI [-0.140, 0.221]
+
+GPT-4o:
+  r = 0.235, 95% CI [0.042, 0.423]
+
+Gemini 1.5 Pro:
+  r = -0.039, 95% CI [-0.234, 0.155]
+1. SIMPLE EFFECTS BY MODERATOR (FDR CORRECTED)
+--------------------------------------------------------------------------------
+By Map Usage Type
+
+reading:
+  N = 48, Mean diff = 0.292
+  p_corrected = 0.148510
+
+analysis:
+  N = 48, Mean diff = 0.457
+  p_corrected = 0.089164
+
+interpretation:
+  N = 48, Mean diff = 0.172
+  p_corrected = 0.963795
+By Graphical Complexity
+
+1.2 By Graphical Complexity
+
+low:
+  N = 72, Mean diff = 0.604
+  p_corrected = 0.016047
+
+high:
+  N = 72, Mean diff = 0.010
+  p_corrected = 0.670908
+By Spatial Aggregation Level (NUTS)
+
+country:
+  N = 72, Mean diff = 0.537
+  p_corrected = 0.015927
+
+region:
+  N = 72, Mean diff = 0.076
+  p_corrected = 0.785688
+By Map Source
+
+atlas:
+  N = 72, Mean diff = 0.525
+  p_corrected = 0.064576
+
+statistical_office:
+  N = 72, Mean diff = 0.089
+  p_corrected = 0.422776
+MODERATOR INTERCORRELATIONS
+--------------------------------------------------------------------------------
+Spearman Rank Correlations
+----------------------------------------
+
+Complexity × Map Source:
+  ρ = 0.250, p = 0.0025
+  Interpretation: weak correlation
+
+Complexity × NUTS Level:
+  ρ = 0.250, p = 0.0025
+  Interpretation: weak correlation
+
+Map Source × NUTS Level:
+  ρ = 0.000, p = 1.0000
+  Interpretation: weak correlation
+Chi-Square Tests of Independence
+----------------------------------------
+
+graphical_complexity × map_source:
+  χ² = 8.028, df = 1, p = 0.0046
+  Cramér's V = 0.236
+  Association: YES
+
+  Contingency table:
+map_source            atlas  statistical_office
+graphical_complexity
+high                     45                  27
+low                      27                  45
+
+graphical_complexity × nuts_level:
+  χ² = 8.028, df = 1, p = 0.0046
+  Cramér's V = 0.236
+  Association: YES
+
+  Contingency table:
+nuts_level            country  region
+graphical_complexity
+high                       45      27
+low                        27      45
+
+map_source × nuts_level:
+  χ² = 0.000, df = 1, p = 1.0000
+  Cramér's V = 0.000
+  Association: NO
+
+  Contingency table:
+nuts_level          country  region
+map_source
+atlas                    36      36
+statistical_office       36      36
+VISUALIZATIONS
+================================================================================
+================================================================================
+GRAPHICAL COMPLEXITY INTERACTION DATA
+================================================================================
+
+Raw statistics:
+  graphical_complexity  test_mode      mean        se
+0                 high      batch  2.986979  0.122332
+1                 high  iterative  2.870747  0.127616
+2                  low      batch  3.514583  0.109100
+3                  low  iterative  3.192188  0.118162
+
+Formatted for plotting (Graphical Complexity):
+        condition      mean        se
+0       Low/Batch  3.514583  0.109100
+1   Low/Iterative  3.192188  0.118162
+2      High/Batch  2.986979  0.122332
+3  High/Iterative  2.870747  0.127616
+
+================================================================================
+NUTS LEVEL INTERACTION DATA
+================================================================================
+
+Raw statistics:
+  nuts_level  test_mode      mean        se
+0    country      batch  3.381424  0.113886
+1    country  iterative  3.031771  0.120917
+2     region      batch  3.120139  0.119431
+3     region  iterative  3.031163  0.125727
+
+Formatted for plotting (NUTS):
+           condition      mean        se
+0      Country/Batch  3.381424  0.113886
+1  Country/Iterative  3.031771  0.120917
+2       Region/Batch  3.120139  0.119431
+3   Region/Iterative  3.031163  0.125727
+
+================================================================================
+COMBINED INTERACTION DATA FOR PLOTTING
+================================================================================
+           condition      mean        se
+0          Low/Batch  3.514583  0.109100
+1      Low/Iterative  3.192188  0.118162
+2         High/Batch  2.986979  0.122332
+3     High/Iterative  2.870747  0.127616
+4      Country/Batch  3.381424  0.113886
+5  Country/Iterative  3.031771  0.120917
+6       Region/Batch  3.120139  0.119431
+7   Region/Iterative  3.031163  0.125727
+
+================================================================================
+DATA READY FOR PLOT CODE:
+================================================================================
+
+interaction_data = pd.DataFrame({
+    'condition': ['Low/Batch', 'Low/Iterative', 'High/Batch', 'High/Iterative', 'Country/Batch', 'Country/Iterative', 'Region/Batch', 'Region/Iterative'],
+    'mean': [3.51, 3.19, 2.99, 2.87, 3.38, 3.03, 3.12, 3.03],
+    'se': [0.11, 0.12, 0.12, 0.13, 0.11, 0.12, 0.12, 0.13]
+})
+
+================================================================================
+DIFFERENCES (BATCH - ITERATIVE)
+================================================================================
+
+Graphical Complexity:
+  Low: Δ = 0.322 (Batch: 3.515, Iterative: 3.192)
+  High: Δ = 0.116 (Batch: 2.987, Iterative: 2.871)
+
+NUTS Level:
+  Country: Δ = 0.350 (Batch: 3.381, Iterative: 3.032)
+  Region: Δ = 0.089 (Batch: 3.120, Iterative: 3.031)
+SUMMARY
+================================================================================
+
+1. MAIN FINDINGS (FDR CORRECTED)
+--------------------------------------------------------------------------------
+Overall effect: NOT SIGNIFICANT (p_FDR = 0.071)
+Effect size: r = 0.161, 95% CI [0.068, 0.254] (small)
+
+2. MODEL-SPECIFIC EFFECTS
+--------------------------------------------------------------------------------
+Claude 3.7 Sonnet: SIGNIFICANT (p_FDR = 0.036), r = 0.385
+DeepSeek-R1: NOT SIGNIFICANT (p_FDR = 0.981), r = 0.044
+GPT-4o: NOT SIGNIFICANT (p_FDR = 0.071), r = 0.235
+Gemini 1.5 Pro: NOT SIGNIFICANT (p_FDR = 0.981), r = -0.039
+
+3. METHODOLOGICAL NOTES
+--------------------------------------------------------------------------------
+- Multiple comparison correction: FDR (Benjamini-Hochberg)
+- Effect size: Rank-biserial correlation with bootstrap 95% CI (n=5000)
+- Zero scores: Included as legitimate failure outcomes
+- Non-parametric tests used due to non-normal distributions
+- All 144 questions perfectly paired across modes
+
+4. INTERPRETATION
+--------------------------------------------------------------------------------
+After FDR correction, the overall effect is NOT significant.
+Significant model-specific effects found for: Claude 3.7 Sonnet

@@ -1,0 +1,13 @@
+model_id,model_provider,model_name,year,month,country,licence
+5,Anthropic,Claude 3.5 Sonnet v2,2024,October,US,paid
+6,Anthropic,Claude 3.7 Sonnet,2025,February,US,paid
+10,DeepSeek,DeepSeek-R1,2025,January,China,free
+3,Google DeepMind,Gemini 1.5 Pro,2024,September,US,paid
+4,Google DeepMind,Gemma 3,2025,March,US,free
+2,OpenAI,GPT o3,2025,January,US,paid
+1,OpenAI,GPT-4o,2024,May,US,paid
+7,xAI,Grok-3,2025,February,US,paid
+11,MiniMax,MiniMax-01,2025,January,China,free
+12,Mistral,Mistral Large,2024,November,France,paid
+9,Alibaba Cloud ,Qwen2.5-Max,2025,January,China,free
+8,Perplexity,Sonar,2025,February,US,paid

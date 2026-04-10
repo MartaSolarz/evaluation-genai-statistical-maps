@@ -1,0 +1,36 @@
+Sensitivity Analysis of RQI Weighting Schemes
+==================================================
+
+Weighting Schemes:
+  S0 (original):        A=50%, B=10%, C=20%, D=20%
+  S1 (equal):           A=25%, B=25%, C=25%, D=25%
+  S2 (accuracy-focused): A=70%, B=5%, C=12.5%, D=12.5%
+  S3 (balanced):        A=40%, B=10%, C=25%, D=25%
+
+Conditional zero rule: if A1=0, entire RQI score = 0
+Data: 1728 batch responses (12 models x 16 maps x 9 questions)
+
+Spearman's Rank Correlations (S0 vs alternatives):
+--------------------------------------------------
+  S0 vs S1: rho = 0.9720, p = 0.000000 -> very stable
+  S0 vs S2: rho = 0.9930, p = 0.000000 -> very stable
+  S0 vs S3: rho = 0.9860, p = 0.000000 -> very stable
+
+Overall Assessment:
+--------------------------------------------------
+All correlations are very high (min rho = 0.9720). Model rankings are VERY STABLE across all weighting schemes. The choice of weights does not substantially affect the relative ordering of models.
+
+Model Rankings by Scheme:
+--------------------------------------------------
+  Claude 3.7 Sonnet         S0= 1  S1= 1  S2= 1  S3= 1
+  Claude 3.5 Sonnet v2      S0= 2  S1= 2  S2= 2  S3= 2
+  GPT o3                    S0= 3  S1= 3  S2= 3  S3= 3
+  Mistral Large             S0= 4  S1= 5  S2= 4  S3= 5
+  Grok-3                    S0= 5  S1= 4  S2= 5  S3= 4
+  Gemini 1.5 Pro            S0= 6  S1= 6  S2= 6  S3= 6
+  Gemma 3                   S0= 7  S1= 8  S2= 8  S3= 7
+  Qwen2.5-Max               S0= 8  S1= 9  S2= 7  S3= 9
+  GPT-4o                    S0= 9  S1= 7  S2= 9  S3= 8
+  MiniMax-01                S0=10  S1=10  S2=10  S3=10
+  DeepSeek-R1               S0=11  S1=11  S2=11  S3=11
+  Sonar                     S0=12  S1=12  S2=12  S3=12

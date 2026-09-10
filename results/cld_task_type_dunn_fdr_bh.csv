@@ -1,0 +1,10 @@
+task_type,mean,median,CLD
+cause/effect,3.959895833333333,4.2,ab
+predict,3.8984375,4.4,b
+identify,3.5901041666666664,4.9,e
+interpret,3.521875,4.2,a
+compare,3.3139322916666667,4.3,a
+associate,3.2397135416666667,4.1,ad
+locate,2.6588541666666665,4.3,a
+cluster,2.5408854166666663,3.825,c
+retrieve value,2.240104166666667,0.0,cd

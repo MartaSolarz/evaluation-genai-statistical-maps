@@ -8,14 +8,17 @@ Output: results/cld_task_type_dunn_fdr_bh.csv
 
 import pandas as pd
 import numpy as np
+from pathlib import Path
 from scipy.stats import kruskal
 from scikit_posthocs import posthoc_dunn
 from itertools import combinations
 from string import ascii_lowercase
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 ALPHA = 0.05
-DATA_PATH = "data/cleaned_data/data_batch_only.csv"
-OUTPUT_PATH = "results/cld_task_type_dunn_fdr_bh.csv"
+DATA_PATH = REPO_ROOT / "data" / "cleaned_data" / "data_batch_only.csv"
+OUTPUT_PATH = REPO_ROOT / "results" / "cld_task_type_dunn_fdr_bh.csv"
 
 
 def is_clique(subset, not_sig_mat):

@@ -24,19 +24,20 @@ statistical_analysis/
     └── visualizations.ipynb
 
 cld_analysis/
-├── cld_task_type.py      # Compact letter display for task-type comparisons
-└── cld_task_type_dunn_fdr_bh.csv
+└── cld_task_type.py      # Compact letter display for task-type comparisons
 
 sensitive_analysis/
-├── sensitivity_analysis_weights.py   # RQI robustness under alternative weighting schemes
-├── sensitivity_analysis_results.csv
-└── sensitivity_analysis_summary.txt
+└── sensitivity_analysis_weights.py   # RQI robustness under alternative weighting schemes
 
-results/
+results/                  # All generated output
 ├── plots/                # Figures
 ├── tables/               # Statistical tables
-└── *.csv                 # Summary statistics
+└── *.csv, *.txt          # Summary statistics
 ```
+
+Code lives in the directory of the analysis it belongs to; every generated artefact is
+written to `results/`. Both scripts resolve their paths relative to their own location, so
+they can be run from any working directory.
 
 ## Requirements
 
@@ -52,8 +53,8 @@ Run the Jupyter notebooks in order:
 2. `statistical_analysis/batch_only/tests.ipynb` and `visualizations.ipynb`
 3. `statistical_analysis/batch_vs_iterative/tests.ipynb` and `visualizations.ipynb`
 
-Then run the supporting scripts:
-4. `cld_analysis/cld_task_type.py`
-5. `sensitive_analysis/sensitivity_analysis_weights.py`
+Then run the supporting scripts, from anywhere:
+4. `python cld_analysis/cld_task_type.py`
+5. `python sensitive_analysis/sensitivity_analysis_weights.py`
 
 Results are saved in the `results/` directory.

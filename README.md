@@ -1,7 +1,7 @@
 # Evaluating Multimodal Large Language Models in Statistical Map Understanding: A Systematic Assessment in Reading, Analysis, and Interpretation
 
 ## Abstract
-Statistical maps remain invaluable tools for visualizing the spatial distribution of quantitative phenomena. The recent development of Multimodal Large Language Models (MLLMs), which can handle both visual input and text, holds promise to automate analytical procedures and support human capability in cartography. Maps thus serve as sources of information acquired, analyzed, and interpreted by both human users and AI models. However, the extent to which MLLMs can effectively extract and interpret cartographic information remains largely unexplored, presenting a critical challenge for integrating these technologies into cartographic workflows. In this study, we systematically evaluate the capability of twelve multimodal generative AI models to acquire information from statistical maps in the three map use levels , i.e., map reading, map analysis, and map interpretation. We explored models' performance across map properties (graphical complexity, spatial units aggregation, map source, map types), task types, and the modes used to test model–user interactions. The study points out that there exists an inverse hierarchy in capability of MLLMs to acquire information from statistical maps and thus understand maps , i.e., MLLMs excelled in interpretation tasks (mean = 3.69/5), scored worse in analytical discernment of patterns (3.03/5), and collected worst scores in accurate value extraction in map reading (2.83/5). Commercial and US-based models generally outperformed free or Chinese models, and made with a single map type, country-level maps yielded superior scores over more complex maps with smaller enumeration units. The findings reveal that MLLMs compensate for visual processing limitations through extensive pre-trained geographic knowledge, enabling strong contextual reasoning despite weak quantitative extraction. This represents a different cognitive pathway than human map reading, which proceeds hierarchically from symbol recognition through pattern analysis to interpretation. Our results have practical implications for cartographic workflows: MLLMs currently suit qualitative description and preliminary pattern analysis but require human verification for quantitative data retrieving. The systematic evaluation framework provides a foundation for assessing future model iterations and expanding evaluation to other cartographic contexts.
+Statistical maps remain invaluable tools for visualizing the spatial distribution of quantitative phenomena. The recent development of Multimodal Large Language Models (MLLMs), capable of processing both images and text, holds promise to automate analytical procedures and support cartographic work. However, their ability to extract and interpret cartographic information remains largely unexplored, presenting a challenge for integrating these technologies into cartographic workflows. In this study, we evaluate the capability of twelve multimodal generative AI models to acquire information from statistical maps across three map use levels: map reading, analysis, and interpretation. We explored models' performance across map properties (symbolization multiplicity, spatial units aggregation, map source, map types), task types, and prompting procedures. The study points out that MLLMs excelled in interpretation tasks (M=3.79/5), scored worse in analytical pattern discernment (3.03/5), and performed weakest in accurate value extraction during map reading (2.83/5). Moreover, model selection and map characteristics significantly affected response quality. The findings reveal that MLLMs compensate for visual processing limitations through extensive pre-trained geographic knowledge, enabling strong contextual reasoning despite weak data extraction. This represents a different cognitive pathway than human map reading, which proceeds hierarchically from symbol recognition through pattern analysis to interpretation. Our results have practical implications for cartographic workflows: MLLMs currently suit qualitative description and preliminary pattern analysis but require human verification for quantitative data retrieving. The systematic evaluation framework provides a foundation for assessing future model iterations and expanding evaluation to other cartographic contexts.
 
 **Keywords:** Multimodal Large Language Models, Generative Artificial Intelligence, Statistical maps, Map understanding, Spatial data interpretation, GeoAI.
 
@@ -9,7 +9,7 @@ Statistical maps remain invaluable tools for visualizing the spatial distributio
 
 ```
 data/
-├── cleaned_data/          # Experimental data (batch and iterative modes)
+├── cleaned_data/         # Analysis-ready extracts (batch and iterative modes)
 └── models.csv            # Model metadata
 
 descriptive_analysis/
@@ -17,11 +17,20 @@ descriptive_analysis/
 
 statistical_analysis/
 ├── batch_only/           # Batch-only analysis
-│   ├── tests.ipynb      # Statistical tests (main effects, map characteristics, interactions)
+│   ├── tests.ipynb       # Statistical tests (main effects, map characteristics, interactions)
 │   └── visualizations.ipynb
 └── batch_vs_iterative/   # Comparative analysis
-    ├── tests.ipynb      # Statistical tests (overall effects, moderation, intercorrelations)
+    ├── tests.ipynb       # Statistical tests (overall effects, moderation, intercorrelations)
     └── visualizations.ipynb
+
+cld_analysis/
+├── cld_task_type.py      # Compact letter display for task-type comparisons
+└── cld_task_type_dunn_fdr_bh.csv
+
+sensitive_analysis/
+├── sensitivity_analysis_weights.py   # RQI robustness under alternative weighting schemes
+├── sensitivity_analysis_results.csv
+└── sensitivity_analysis_summary.txt
 
 results/
 ├── plots/                # Figures
@@ -43,5 +52,8 @@ Run the Jupyter notebooks in order:
 2. `statistical_analysis/batch_only/tests.ipynb` and `visualizations.ipynb`
 3. `statistical_analysis/batch_vs_iterative/tests.ipynb` and `visualizations.ipynb`
 
-Results are saved in the `results/` directory.
+Then run the supporting scripts:
+4. `cld_analysis/cld_task_type.py`
+5. `sensitive_analysis/sensitivity_analysis_weights.py`
 
+Results are saved in the `results/` directory.

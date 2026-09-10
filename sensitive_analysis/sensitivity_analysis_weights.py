@@ -6,10 +6,15 @@ Compares 4 weighting schemes and evaluates ranking stability using Spearman's rh
 
 import pandas as pd
 import numpy as np
+from pathlib import Path
 from scipy.stats import spearmanr
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+DATA_PATH = REPO_ROOT / "data" / "raw_data" / "data.tsv"
+
 # --- Load data ---
-df = pd.read_csv("pure_data/results.csv")
+df = pd.read_csv(DATA_PATH, sep="\t")
 df_batch = df[df["test_mode"] == "batch"].copy()
 
 assert len(df_batch) == 1728, f"Expected 1728 batch rows, got {len(df_batch)}"
@@ -74,7 +79,7 @@ for name in schemes:
     result_df[f"Mean_{name}"] = result_df[f"Mean_{name}"].round(4)
 
 # --- Save CSV ---
-result_df.to_csv("sensitivity_analysis_results.csv")
+result_df.to_csv(SCRIPT_DIR / "sensitivity_analysis_results.csv")
 print("=== Sensitivity Analysis Results ===\n")
 print(result_df.to_string())
 
@@ -157,7 +162,7 @@ for _, row in result_df.iterrows():
 
 summary_text = "\n".join(summary_lines)
 
-with open("sensitivity_analysis_summary.txt", "w") as f:
+with open(SCRIPT_DIR / "sensitivity_analysis_summary.txt", "w") as f:
     f.write(summary_text)
 
 print(f"\n\n{summary_text}")

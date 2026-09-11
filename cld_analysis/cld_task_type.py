@@ -3,7 +3,8 @@ Compact Letter Display (CLD) analysis for task types.
 Based on Dunn's post-hoc test (after Kruskal-Wallis) with Benjamini-Hochberg FDR correction.
 
 Input: data/cleaned_data/data_batch_only.csv
-Output: results/cld_task_type_dunn_fdr_bh.csv
+Output: results/cld_task_type_dunn_fdr_bh.csv (CLD letters)
+        results/dunn_task_type_pvalues_fdr_bh.csv (full pairwise p-value matrix)
 """
 
 import pandas as pd
@@ -19,6 +20,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ALPHA = 0.05
 DATA_PATH = REPO_ROOT / "data" / "cleaned_data" / "data_batch_only.csv"
 OUTPUT_PATH = REPO_ROOT / "results" / "cld_task_type_dunn_fdr_bh.csv"
+PVALUES_PATH = REPO_ROOT / "results" / "dunn_task_type_pvalues_fdr_bh.csv"
 
 
 def is_clique(subset, not_sig_mat):
@@ -185,6 +187,9 @@ def main():
 
     result.to_csv(OUTPUT_PATH, index=False)
     print(f"\nSaved to {OUTPUT_PATH}")
+
+    posthoc.to_csv(PVALUES_PATH)
+    print(f"Saved to {PVALUES_PATH}")
 
 
 if __name__ == "__main__":

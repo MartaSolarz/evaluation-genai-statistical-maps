@@ -10,6 +10,7 @@ Statistical maps remain invaluable tools for visualizing the spatial distributio
 ```
 data/
 ├── cleaned_data/         # Analysis-ready extracts (batch and iterative modes)
+├── raw_data/             # NOT DISTRIBUTED - see "Data" below
 └── models.csv            # Model metadata
 
 descriptive_analysis/
@@ -39,12 +40,30 @@ Code lives in the directory of the analysis it belongs to; every generated artef
 written to `results/`. Both scripts resolve their paths relative to their own location, so
 they can be run from any working directory.
 
+## Data
+
+The analysis-ready extracts in `data/cleaned_data/` are included here, so every notebook
+and `cld_analysis/cld_task_type.py` run out of the box.
+
+The full response-level dataset is **not** distributed with this code. It is archived
+separately in the University of Warsaw Research Data Repository under a CC BY 4.0 licence:
+
+    https://doi.org/10.58132/GH6PGQ
+
+Only one script needs it - `sensitive_analysis/sensitivity_analysis_weights.py`, which
+recomputes the Response Quality Index under alternative weighting schemes. To run it,
+download `data.tsv` from the repository above and place it at:
+
+    data/raw_data/data.tsv
+
+The accompanying `CODEBOOK.md`, which documents all 34 variables, is available from the
+same record.
+
 ## Requirements
 
-- pandas, numpy
-- matplotlib, seaborn
-- scipy, statsmodels
-- scikit-learn, scikit-posthocs
+Python 3.11.5. Install pinned dependencies with:
+
+    pip install -r requirements.txt
 
 ## Usage
 
@@ -55,6 +74,6 @@ Run the Jupyter notebooks in order:
 
 Then run the supporting scripts, from anywhere:
 4. `python cld_analysis/cld_task_type.py`
-5. `python sensitive_analysis/sensitivity_analysis_weights.py`
+5. `python sensitive_analysis/sensitivity_analysis_weights.py` (requires `data/raw_data/data.tsv`, see "Data")
 
 Results are saved in the `results/` directory.

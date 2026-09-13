@@ -213,3 +213,6 @@ data/raw_data
 .DS_Store
 **/.DS_Store
 results/figures_tiff
+results/tables/
+results/plots/extra.png
+results/plots/figure5.png
